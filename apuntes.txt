@@ -1,0 +1,10 @@
+A01 - Ingeniería en Mecánica y Energías Renovables
+A02 - Ingeniería en Mecatrónica y Sistemas de Control
+A03 - Ingeniería en Gestión Industrial
+A04 - Ingeniería en Cibernética Electrónica
+A05 - Ingeniería Eléctrica con énfasis en Eficiencia Energética
+A06 - ?
+A07 - Licenciatura Comercial con énfasis en Mercadeo
+A08 - Licenciatura en Administración con énfasis en Finanzas
+A09 - ?
+A10 - Ingeniería Electromedica

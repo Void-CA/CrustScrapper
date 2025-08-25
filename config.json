@@ -1,0 +1,22 @@
+[
+  {
+    "year": 22,
+    "max_students": 420,
+    "existing_careers": [1, 2, 3, 4, 8]
+  },
+  {
+    "year": 23,
+    "max_students": 470,
+    "existing_careers": [1, 2, 3, 4, 7, 8]
+  },
+  {
+    "year": 24,
+    "max_students": 340,
+    "existing_careers": [1, 2, 3, 4, 7, 8]
+  },
+  {
+    "year": 25,
+    "max_students": 1500,
+    "existing_careers": [1, 2, 3, 4, 7, 8, 10]
+  }
+]

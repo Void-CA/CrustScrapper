@@ -1,0 +1,451 @@
+code,full_name,email,carnet,status,entry_date,shift,career
+24-A0201-0003,EDIXON ARTURO VILLALOBOS CASTELLON,edixon.villalobos@est.ulsa.edu.ni,24-A0201-0003,BAJA ACADÉMICA,01/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0004,RICHARD ANTONIO LOPEZ CHEVEZ,richard.lopez@est.ulsa.edu.ni,24-A0101-0004,ACTIVO,01/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0002,EDUARDO ALFONSO VALLE ROCHA,eduardo.valle.01@est.ulsa.edu.ni,24-A0301-0002,RETIRO DEFINITIVO,01/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0005,EDDY ANDRES MUNGUIA GONZALEZ,eddy.munguia@est.ulsa.edu.ni,24-A0201-0005,ACTIVO,01/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0001,GUSTAVO ANTONIO NAVARRETE CRUZ,gustavo.navarrete@est.ulsa.edu.ni,24-A0201-0001,ACTIVO,01/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0006,CARLOS ALBERTO POVEDA HERNANDEZ,carlos.poveda@est.ulsa.edu.ni,24-A0301-0006,ACTIVO,02/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0007,BISMARCK ELISEO RIOS PEREZ,bismarck.rios@est.ulsa.edu.ni,24-A0201-0007,ACTIVO,02/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0008,RAFAEL ANTONIO MUNGUIA FLORES,rafael.munguia@est.ulsa.edu.ni,24-A0301-0008,RETIRO DEFINITIVO,02/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0009,JHONAS DANIEL TORUÑO URBINA,jhonas.toruno@est.ulsa.edu.ni,24-A0101-0009,ACTIVO,02/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0011,JUSTIN JOSUE GOMEZ MORALES,justin.gomez@est.ulsa.edu.ni,24-A0201-0011,ACTIVO,04/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0012,JORGE EFRAIN GALO ALTAMIRANO,jorge.galo.01@est.ulsa.edu.ni,24-A0401-0012,ACTIVO,04/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0201-0013,FRANCISCO ANTONIO RUIZ BELTRAN,francisco.ruiz@est.ulsa.edu.ni,24-A0201-0013,RETIRO TEMPORAL,04/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0700-0014,CESIA MARGARITA TALENO VELASQUEZ,cesia.taleno@est.ulsa.edu.ni,24-A0700-0014,ACTIVO,04/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0300-0015,KEYLA JOHANA CARVAJAL MARTINEZ,keyla.carvajal@est.ulsa.edu.ni,24-A0300-0015,ACTIVO,04/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0016,JEREMY LENNIN PRADO MORENO,jeremy.prado@est.ulsa.edu.ni,24-A0201-0016,ACTIVO,04/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0017,EDUARDO RODRIGO CABRERA DOÑA,eduardo.cabrera@est.ulsa.edu.ni,24-A0401-0017,BAJA ACADÉMICA,04/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0301-0018,FREDERIC OLDEMAR PEREZ ESPINOZA,frederic.perez@est.ulsa.edu.ni,24-A0301-0018,ACTIVO,04/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0019,ALEX DAVID MEJIA PADILLA,alex.mejia@est.ulsa.edu.ni,24-A0201-0019,ACTIVO,04/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0020,SERGIO ARIEL NORORI BUSTAMANTE,sergio.norori@est.ulsa.edu.ni,24-A0201-0020,ACTIVO,04/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0022,ELVIS OBRAYN FUENTES TOVAL,elvis.fuentes@est.ulsa.edu.ni,24-A0101-0022,ACTIVO,04/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0800-0021,MARIA ALEJANDRA CRUZ GONZALEZ,maria.cruz@est.ulsa.edu.ni,24-A0800-0021,ACTIVO,04/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0300-0023,ALEXA NOEMI ARAUZ BARCENAS,alexa.arauz@est.ulsa.edu.ni,24-A0300-0023,RETIRO DEFINITIVO,04/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0701-0024,OSCAR DANIEL MORALES MOLIERI,oscar.morales@est.ulsa.edu.ni,24-A0701-0024,RETIRO TEMPORAL,04/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0401-0025,CARLOS EDUARDO FUENTES TELLEZ,carlos.fuentes@est.ulsa.edu.ni,24-A0401-0025,ACTIVO,04/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0301-0026,DIEGO ISAAC PEREIRA SALGADO,diego.pereira@est.ulsa.edu.ni,24-A0301-0026,ACTIVO,04/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0027,FELIX PEDRO LARIOS ALVARES,felix.larios@est.ulsa.edu.ni,24-A0201-0027,ACTIVO,04/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0028,GUSTAVO ALEJANDRO DE JESUS LARIOS HERNANDEZ,gustavo.larios@est.ulsa.edu.ni,24-A0401-0028,ACTIVO,05/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0301-0029,PIERO ANDRE BENAVIDES SOMARRIBA,piero.benavides@est.ulsa.edu.ni,24-A0301-0029,ACTIVO,05/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0030,PAVEL ANTONIO HERMIDA GUTIERREZ,pavel.hermida@est.ulsa.edu.ni,24-A0201-0030,ACTIVO,05/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0032,EXEQUIEL OSMAR ZEPEDA SARRIA,exequiel.zepeda@est.ulsa.edu.ni,24-A0201-0032,ACTIVO,05/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0033,HAROLD JOSUE AVILES LOPEZ,harold.aviles@est.ulsa.edu.ni,24-A0101-0033,ACTIVO,05/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0200-0034,DANIELA GUADALUPE ORTEGA GUTIERREZ,daniela.ortega@est.ulsa.edu.ni,24-A0200-0034,ACTIVO,05/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0035,MELVIN AREYSO PARRILES GUTIERREZ,melvin.parriles@est.ulsa.edu.ni,24-A0201-0035,ACTIVO,05/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0036,MISAEL JOCSAN ARAGON GARCIA,misael.aragon@est.ulsa.edu.ni,24-A0201-0036,RETIRO DEFINITIVO,05/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0037,KERIOT ALEXANDER MARTINEZ CABRERA,keriot.martinez@est.ulsa.edu.ni,24-A0401-0037,ACTIVO,05/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0200-0038,KENIA FELICITA OSORIO REYES,kenia.osorio@est.ulsa.edu.ni,24-A0200-0038,ACTIVO,05/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0039,RAFAEL AARON REYES BLANCO,rafael.reyes.01@est.ulsa.edu.ni,24-A0101-0039,BAJA ACADÉMICA,05/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0700-0040,JANNHY BETSABE QUIROZ LOPEZ,jannhy.quiroz@est.ulsa.edu.ni,24-A0700-0040,ACTIVO,05/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0201-0041,JOSE ESTEBAN OSEJO REYES,jose.osejo@est.ulsa.edu.ni,24-A0201-0041,ACTIVO,05/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0042,JULIANNY BAROC ALVARADO REYES,julianny.alvarado@est.ulsa.edu.ni,24-A0201-0042,RETIRO DEFINITIVO,05/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0043,URIEL JOSE ARGUELLO MORALES,uriel.arguello@est.ulsa.edu.ni,24-A0201-0043,ACTIVO,05/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0044,DENIS ALFREDO SUAREZ DELGADILLO,denis.suarez@est.ulsa.edu.ni,24-A0201-0044,ACTIVO,06/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0045,CELVIN EFRAIN MEDINA,celvin.medina@est.ulsa.edu.ni,24-A0301-0045,BAJA ACADÉMICA,06/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0046,MARIA ALEJANDRA REYES ARAUZ,maria.reyes.01@est.ulsa.edu.ni,24-A0300-0046,ACTIVO,06/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0300-0047,ANYELI DINOSCA BERRIOS ROMERO,anyeli.berrios@est.ulsa.edu.ni,24-A0300-0047,ACTIVO,06/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0048,DALILA MICHELLE CABALLERO HERNANDEZ,dalila.caballero@est.ulsa.edu.ni,24-A0300-0048,ACTIVO,06/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0700-0049,SOFIA ESTHER ESQUIVEL ZUNIGA,sofia.esquivel@est.ulsa.edu.ni,24-A0700-0049,ACTIVO,06/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0201-0050,NEYSON NAIN SARRIA RODRIGUEZ,neyson.sarria@est.ulsa.edu.ni,24-A0201-0050,BAJA ACADÉMICA,06/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0800-0051,ISIDORA ROXANA LOPEZ PINEDA,isidora.lopez@est.ulsa.edu.ni,24-A0800-0051,ACTIVO,06/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0201-0052,ELIAN JOSUE ESTRADA GONZALEZ,elian.estrada@est.ulsa.edu.ni,24-A0201-0052,ACTIVO,06/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0800-0053,ESTEFANI ALEJANDRA CARRION MUNGUIA,estefani.carrion@est.ulsa.edu.ni,24-A0800-0053,RETIRO TEMPORAL,06/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0300-0054,DACNNE BELEN CABRERA CASTILLO,dacnne.cabrera@est.ulsa.edu.ni,24-A0300-0054,ACTIVO,06/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0055,WALLER ULICE ANDINO GUIDO,waller.andino@est.ulsa.edu.ni,24-A0301-0055,ACTIVO,06/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0056,JESHUA ALEXANDER PERALTA SOZA,jeshua.peralta@est.ulsa.edu.ni,24-A0301-0056,RETIRO DEFINITIVO,06/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0057,CARLOS ARMANDO NEIRA GARCIA,carlos.neira@est.ulsa.edu.ni,24-A0201-0057,NO MATRICULADO,06/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0058,JULIO CESAR CACERES RUIZ,julio.caceres.01@est.ulsa.edu.ni,24-A0201-0058,ACTIVO,06/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0059,FERNANDO ALEXANDER RIVAS BALLADARES,fernando.rivas@est.ulsa.edu.ni,24-A0201-0059,ACTIVO,06/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0060,VICTOR ANTODEL PEREZ MORALES,victor.perez.02@est.ulsa.edu.ni,24-A0401-0060,BAJA ACADÉMICA,06/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0301-0061,DERECK ALEXANDER LOPEZ CASTILLO,dereck.lopez@est.ulsa.edu.ni,24-A0301-0061,ACTIVO,06/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0062,STEVEN DAVID GUIDO ESCOTO,steven.guido@est.ulsa.edu.ni,24-A0101-0062,RETIRO DEFINITIVO,06/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0101-0063,STEVEN JOSUE HERNANDEZ CALVO,steven.hernandez.01@est.ulsa.edu.ni,24-A0101-0063,BAJA ACADÉMICA,06/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0064,JORDANY ALEXANDER GARCIA VARELA,jordany.garcia@est.ulsa.edu.ni,24-A0101-0064,BAJA ACADÉMICA,06/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0401-0065,DAVID MIGUEL VANEGAS TRUJILLO,david.vanegas@est.ulsa.edu.ni,24-A0401-0065,RETIRO TEMPORAL,07/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0301-0066,ERICK SEBASTIAN PINEDA MENDOZA,erick.pineda@est.ulsa.edu.ni,24-A0301-0066,ACTIVO,07/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0801-0067,JOSE GABRIEL RUEDA PAGUAGA,jose.rueda@est.ulsa.edu.ni,24-A0801-0067,BAJA ACADÉMICA,07/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0201-0068,JOSE DANIEL ALVARADO VIDEA,jose.alvarado@est.ulsa.edu.ni,24-A0201-0068,BAJA ACADÉMICA,07/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0069,DIEGO MARCELO MIRANDA DELGADO,diego.miranda@est.ulsa.edu.ni,24-A0101-0069,ACTIVO,07/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0070,MOISES DAVID MORALES MEMBREÑO,moises.morales@est.ulsa.edu.ni,24-A0201-0070,ACTIVO,07/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0071,ANDRY ALEJANDRO MADRIGALES MADRIGAL,andry.madrigales@est.ulsa.edu.ni,24-A0301-0071,ACTIVO,09/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0072,ALEJANDRO ENMANUEL MONTES GONZALEZ,alejandro.montes@est.ulsa.edu.ni,24-A0201-0072,RETIRO TEMPORAL,09/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0073,JOSHUA GABRIEL JARQUIN HODGSON,joshua.jarquin@est.ulsa.edu.ni,24-A0401-0073,NO MATRICULADO,09/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0201-0074,EDWIN FERNANDO CARRILLO SANCHEZ,edwin.carrillo@est.ulsa.edu.ni,24-A0201-0074,ACTIVO,09/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0075,HANDEL FRANCISCO QUEZADA PERALTA,handel.quezada@est.ulsa.edu.ni,24-A0201-0075,ACTIVO,09/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0076,TOMAS ALBERTO CANALES CABALLERO,tomas.canales@est.ulsa.edu.ni,24-A0201-0076,ACTIVO,09/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0077,WILLIAM EDUARDO DELGADILLO CAMPOS,william.delgadillo@est.ulsa.edu.ni,24-A0201-0077,BAJA ACADÉMICA,09/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0078,MARIO NORBERTO SALAZAR HERNANDEZ,mario.salazar@est.ulsa.edu.ni,24-A0101-0078,ACTIVO,09/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0079,RUNEL JULIAN REYES DELGADO,runel.reyes@est.ulsa.edu.ni,24-A0101-0079,ACTIVO,09/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0080,RODRIGO EDUARDO DELGADO GUIDO,rodrigo.delgado@est.ulsa.edu.ni,24-A0201-0080,RETIRO TEMPORAL,09/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0700-0081,DULCE MARIA ESPINOZA GUERRERO,dulce.espinoza@est.ulsa.edu.ni,24-A0700-0081,RETIRO DEFINITIVO,09/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0800-0082,ANA EUGENIA SANCHEZ BETANCO,ana.sanchez@est.ulsa.edu.ni,24-A0800-0082,ACTIVO,09/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0401-0083,GABRIEL SALVADOR JIRON GONZALEZ,gabriel.jiron@est.ulsa.edu.ni,24-A0401-0083,RETIRO DEFINITIVO,09/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0101-0084,PABLO ARIEL GOMEZ MORALES,pablo.gomez@est.ulsa.edu.ni,24-A0101-0084,BAJA ACADÉMICA,09/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0085,JOSE FERNANDO URTECHO VASQUEZ,jose.urtecho@est.ulsa.edu.ni,24-A0301-0085,ACTIVO,09/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0087,DIEGO SAUL MADRIZ GALEANO,diego.madriz@est.ulsa.edu.ni,24-A0101-0087,BAJA ACADÉMICA,09/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0701-0086,JOEL EZEQUIEL SANDINO GOMEZ,joel.sandino@est.ulsa.edu.ni,24-A0701-0086,ACTIVO,09/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0401-0088,CAMILA MERCEDES MEDINA AVENDAÑO,camila.medina@est.ulsa.edu.ni,24-A0401-0088,ACTIVO,11/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0201-0089,ISAIAS JOSUE MORALES SALINAS,isaias.morales@est.ulsa.edu.ni,24-A0201-0089,ACTIVO,11/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0090,FREDDY ANTONIO NICOLAS GUIDO,freddy.nicolas@est.ulsa.edu.ni,24-A0201-0090,ACTIVO,11/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0092,ANDRES ENRIQUE VALLADARES AMADOR,andres.valladares@est.ulsa.edu.ni,24-A0301-0092,BAJA ACADÉMICA,11/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0091,JOHAN EMMANUEL LOPEZ ROMERO,johan.lopez@est.ulsa.edu.ni,24-A0101-0091,BAJA ACADÉMICA,11/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0094,GERSSON JAVIER GOMEZ ARRIOLA,gerson.gomez@est.ulsa.edu.ni,24-A0101-0094,BAJA ACADÉMICA,11/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0100-0095,KARLA JALESKA PORTOBANCO MEMBREÑO,karla.portobanco@est.ulsa.edu.ni,24-A0100-0095,NO MATRICULADO,11/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0096,GILBERT DANIEL BENEDITH MIRANDA,gilbert.benedith@est.ulsa.edu.ni,24-A0101-0096,ACTIVO,11/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0700-0097,ERIKA CECILIA ARGUEDA TRUJILLO,erika.argueda@est.ulsa.edu.ni,24-A0700-0097,ACTIVO,11/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0401-0099,FRANKLIN MAURICIO CHAVARRIA DELGADILLO,franklin.chavarria@est.ulsa.edu.ni,24-A0401-0099,ACTIVO,11/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0101-0100,KEVIN JOSE JIRON CABALLERO,kevin.jiron@est.ulsa.edu.ni,24-A0101-0100,BAJA ACADÉMICA,11/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0700-0101,REYNA DE LOS ANGELES PAGUAGA GARCIA,reyna.paguaga@est.ulsa.edu.ni,24-A0700-0101,ACTIVO,11/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0300-0102,EILEEN HAYDEE ROJAS ROMERO,eileen.rojas@est.ulsa.edu.ni,24-A0300-0102,ACTIVO,11/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0103,JOSEPH FRANCISCO GONZALEZ PANIAGUA,joseph.gonzalez@est.ulsa.edu.ni,24-A0201-0103,BAJA ACADÉMICA,11/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0104,ROLANDO AGUSTIN AREVALO LOPEZ,rolando.arevalo@est.ulsa.edu.ni,24-A0301-0104,BAJA ACADÉMICA,11/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0200-0105,STEPHANY YALINA GOMEZ RIVERA,stephany.gomez@est.ulsa.edu.ni,24-A0200-0105,ACTIVO,11/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0106,RICARDO GUADALUPE LINARTE LEZAMA,ricardo.linarte@est.ulsa.edu.ni,24-A0301-0106,BAJA ACADÉMICA,11/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0107,AXEL RODRIGO MARTINEZ GOMEZ,axel.martinez.02@est.ulsa.edu.ni,24-A0101-0107,BAJA ACADÉMICA,12/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0301-0108,HECTOR DAVID SUAZO GONZALEZ,hector.suazo@est.ulsa.edu.ni,24-A0301-0108,RETIRO TEMPORAL,12/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0109,JUAN CARLOS ZELEDON ORDOÑEZ,juan.zeledon@est.ulsa.edu.ni,24-A0301-0109,ACTIVO,12/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0401-0110,WILTHEYEN JOSUE GONZALEZ SUAZO,wiltheyen.gonzalez@est.ulsa.edu.ni,24-A0401-0110,ACTIVO,12/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0201-0111,ANDRUWS YASSIER LEAL HERNANDEZ,andruws.leal@est.ulsa.edu.ni,24-A0201-0111,ACTIVO,12/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0112,WENDEL ROLANDO BLANDON ROMERO,wendel.blandon@est.ulsa.edu.ni,24-A0101-0112,ACTIVO,12/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0113,FELIX ALEXANDER PADILLA DOLMUZ,felix.padilla@est.ulsa.edu.ni,24-A0101-0113,ACTIVO,12/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0800-0114,ALEXA SARALEE ESCOBAR SILVA,alexa.escobar@est.ulsa.edu.ni,24-A0800-0114,ACTIVO,12/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0700-0115,MARIA ALEJANDRA MORALES MENDEZ,maria.morales.01@est.ulsa.edu.ni,24-A0700-0115,ACTIVO,12/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0101-0116,GABRIEL EDUARDO AGUILAR CANO,gabriel.aguilar@est.ulsa.edu.ni,24-A0101-0116,ACTIVO,12/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0117,JUAN DAVID NARVAEZ CORTES,juan.narvaez@est.ulsa.edu.ni,24-A0201-0117,RETIRO TEMPORAL,12/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0118,BISMARCK JOSUE GONZALEZ PEREZ,bismarck.gonzalez@est.ulsa.edu.ni,24-A0301-0118,ACTIVO,12/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0119,IVAN ERNESTO SANTAMARIA DELGADILLO,ivan.santamaria@est.ulsa.edu.ni,24-A0101-0119,RETIRO DEFINITIVO,12/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0120,JEREMY GABRIEL BERMUDEZ JAENZ,jeremy.bermudez@est.ulsa.edu.ni,24-A0201-0120,NO MATRICULADO,12/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0121,MICHAEL JOSUE HERNANDEZ SANDOVAL,michael.hernandez.02@est.ulsa.edu.ni,24-A0201-0121,ACTIVO,12/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0122,JAVIER FERNANDO GARCIA ARAUZ,javier.garcia@est.ulsa.edu.ni,24-A0301-0122,ACTIVO,12/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0124,JOSUE YAHIR PICHARDO VELASQUEZ,josue.pichardo@est.ulsa.edu.ni,24-A0201-0124,BAJA ACADÉMICA,12/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0800-0123,PAUBLINA ELIZABETH FLORES PEREZ,paublina.flores@est.ulsa.edu.ni,24-A0800-0123,ACTIVO,12/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0301-0125,SERGIO ALEJANDRO FLORES GAMEZ,sergio.flores.01@est.ulsa.edu.ni,24-A0301-0125,ACTIVO,12/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0126,AKIL JAMAL IRIAS FLORES,akil.irias@est.ulsa.edu.ni,24-A0201-0126,ACTIVO,12/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0127,ALISSON GABRIELA MELENDEZ LINARTE,alisson.melendez@est.ulsa.edu.ni,24-A0300-0127,ACTIVO,12/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0128,JORDY MANUEL ZAPATA BERRIOS,jordy.zapata@est.ulsa.edu.ni,24-A0301-0128,ACTIVO,12/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0129,MIGUEL ANGEL MORALES CABALLERO,miguel.morales@est.ulsa.edu.ni,24-A0201-0129,ACTIVO,12/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0200-0130,ALEXIA CLEMENTINA MELENDEZ PEREZ,alexia.melendez@est.ulsa.edu.ni,24-A0200-0130,BAJA ACADÉMICA,12/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0131,HILLARY JOHANA MORALES ARGUELLO,hillary.morales@est.ulsa.edu.ni,24-A0300-0131,RETIRO TEMPORAL,12/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0300-0133,MADELING NICOL MORALES VARGAS,madeling.morales@est.ulsa.edu.ni,24-A0300-0133,ACTIVO,12/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0132,JOSHUA RAMON MENDEZ LOAISIGA,joshua.mendez@est.ulsa.edu.ni,24-A0101-0132,ACTIVO,12/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0134,LEONARDO EFRAIN CRESPIN SALINAS,leonardo.crespin@est.ulsa.edu.ni,24-A0201-0134,RETIRO DEFINITIVO,13/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0135,GREGORY ALEXANDER AYALA SALGADO,gregory.ayala@est.ulsa.edu.ni,24-A0201-0135,RETIRO DEFINITIVO,13/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0136,ABNER ELI RIVAS ORTIZ,abner.rivas@est.ulsa.edu.ni,24-A0201-0136,ACTIVO,13/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0137,ERVIN ANDRES MARTINEZ GOMEZ,ervin.martinez@est.ulsa.edu.ni,24-A0401-0137,ACTIVO,13/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0701-0139,STEVEN LEONARDO MARTINEZ SUAZO,steven.martinez@est.ulsa.edu.ni,24-A0701-0139,ACTIVO,13/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0201-0140,JARECK ORLANDO CUBAS SILVA,jareck.cubas@est.ulsa.edu.ni,24-A0201-0140,ACTIVO,13/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0141,JONATHAN JOSUE MEDINA MARTINEZ,jonathan.medina@est.ulsa.edu.ni,24-A0201-0141,ACTIVO,13/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0801-0142,RAUL FERNANDO MONTENEGRO ZEPEDA,raul.montenegro@est.ulsa.edu.ni,24-A0801-0142,BAJA ACADÉMICA,13/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0701-0143,JULIO CESAR GONZALEZ VALLADARES,julio.gonzalez@est.ulsa.edu.ni,24-A0701-0143,ACTIVO,13/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0201-0144,JASSER AVEDILL ZAVALA FIGUEROA,jasser.zavala@est.ulsa.edu.ni,24-A0201-0144,BAJA ACADÉMICA,13/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0145,HAMILTON ISAAC FLETES MARQUEZ,hamilton.fletes@est.ulsa.edu.ni,24-A0301-0145,BAJA ACADÉMICA,13/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0146,JUAN JOSE BLANDINO ORTIZ,juan.blandino@est.ulsa.edu.ni,24-A0201-0146,ACTIVO,13/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0701-0147,LUIS RAMON LARIOS SOMARRIBA,luis.larios@est.ulsa.edu.ni,24-A0701-0147,BAJA ACADÉMICA,13/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0301-0149,ALDO JOSE NARVAEZ RODRIGUEZ,aldo.narvaez@est.ulsa.edu.ni,24-A0301-0149,ACTIVO,13/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0150,AMAURY JOSE BENDAÑA MEZA,amaury.bendana@est.ulsa.edu.ni,24-A0201-0150,ACTIVO,13/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0152,BRIDGET FRANCELA RODRIGUEZ SEVILLA,bridget.rodriguez@est.ulsa.edu.ni,24-A0300-0152,ACTIVO,13/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0153,LESTER JOSUE PALACIO MUÑOZ,lester.palacio@est.ulsa.edu.ni,24-A0201-0153,ACTIVO,14/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0154,DANIELSON FRANCISCO ANDINO GONZALEZ,danielson.andino@est.ulsa.edu.ni,24-A0201-0154,RETIRO TEMPORAL,14/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0151,EDUARDO JOSE CABALLERO PADILLA,eduardo.caballero@est.ulsa.edu.ni,24-A0201-0151,BAJA ACADÉMICA,13/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0155,EDGAR LEONARDO VALDEZ JEREZ,edgar.valdez@est.ulsa.edu.ni,24-A0201-0155,ACTIVO,14/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0156,GERSON ANTONIO VARELA PEREZ,gerson.varela@est.ulsa.edu.ni,24-A0101-0156,NO MATRICULADO,14/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0301-0157,STHEPHANY LUCIA CORRALES CHEVEZ,sthephany.corrales@est.ulsa.edu.ni,24-A0301-0157,ACTIVO,14/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0158,JUAN EXZEQUIEL BLANCO CASTRO,blanco.juan@est.ulsa.edu.ni,24-A0301-0158,ACTIVO,14/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0159,JOSUE DAVID GARCIA RUIZ,josue.garcia@est.ulsa.edu.ni,24-A0101-0159,BAJA ACADÉMICA,14/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0800-0161,JANIFER ZAIMAR ALVARADO LEYVA,janifer.alvarado@est.ulsa.edu.ni,24-A0800-0161,ACTIVO,14/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0301-0162,JOSE ALEJANDRO SILVA NAVAS,jose.silva.02@est.ulsa.edu.ni,24-A0301-0162,ACTIVO,14/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0400-0163,DAISY JULISSA LOPEZ RAMIREZ,daisy.lopez@est.ulsa.edu.ni,24-A0400-0163,ACTIVO,14/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0401-0164,DENIS ADOLFO REYES HERNANDEZ,denis.reyes@est.ulsa.edu.ni,24-A0401-0164,ACTIVO,14/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0101-0165,TONY JACKSON RODRIGUEZ LOPEZ,tony.rodriguez@est.ulsa.edu.ni,24-A0101-0165,RETIRO TEMPORAL,14/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0101-0166,RONI JOSE ROSA POZO,roni.rosa@est.ulsa.edu.ni,24-A0101-0166,ACTIVO,14/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0300-0167,ALESSANDRA ISABELLA FLORES DELGADILLO,alessandra.flores@est.ulsa.edu.ni,24-A0300-0167,ACTIVO,13/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0168,FREDERYCK ALEXANDER LEIVA CASTILLO,frederyck.leiva@est.ulsa.edu.ni,24-A0201-0168,ACTIVO,14/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0169,KEVIN ALEXANDER DIAZ LOPEZ,kevin.diaz@est.ulsa.edu.ni,24-A0201-0169,NO MATRICULADO,14/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0170,CRISTHIAN JOEL CARCAMO HERNANDEZ,cristhian.carcamo@est.ulsa.edu.ni,24-A0101-0170,ACTIVO,14/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0171,SERGIO ANTONIO RUIZ BAQUEDANO,sergio.ruiz@est.ulsa.edu.ni,24-A0101-0171,NO MATRICULADO,14/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0301-0172,IVAN ENRIQUE REYES PEREZ,ivan.reyes.01@est.ulsa.edu.ni,24-A0301-0172,ACTIVO,14/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0173,ANGELICA DENISSE PACHECO GUTIERREZ,angelica.pacheco@est.ulsa.edu.ni,24-A0300-0173,ACTIVO,14/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0801-0174,LUIS ENRIQUE SANDINO TIJERINO,luis.sandino.01@est.ulsa.edu.ni,24-A0801-0174,BAJA ACADÉMICA,14/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0800-0175,ABRIL SOFIA OVIEDO LLANES,abril.oviedo@est.ulsa.edu.ni,24-A0800-0175,ACTIVO,14/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0800-0176,ROSELIN LAU CASCO,roselin.lau@est.ulsa.edu.ni,24-A0800-0176,ACTIVO,14/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0100-0177,MARIE GERTRUDE GRANERA TIJERINO,marie.granera@est.ulsa.edu.ni,24-A0100-0177,ACTIVO,14/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0178,JEHONATAN JAIR AYALA REYES,jehonatan.ayala@est.ulsa.edu.ni,24-A0201-0178,ACTIVO,15/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0179,LAXERY MACDIEL GUTIERREZ AMADOR,laxery.gutierrez@est.ulsa.edu.ni,24-A0201-0179,RETIRO DEFINITIVO,15/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0180,JONATHAN EVELIO GOMEZ REAL,jonathan.gomez.01@est.ulsa.edu.ni,24-A0201-0180,BAJA ACADÉMICA,15/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0181,CARLOS ULISES CORTEZ AVENDAÑO,carlos.cortez.01@est.ulsa.edu.ni,24-A0101-0181,ACTIVO,15/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0182,FELIX ALEJANDRO RUIZ LARA,felix.ruiz@est.ulsa.edu.ni,24-A0301-0182,ACTIVO,15/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0183,JHOSUA JAVIER NUÑEZ MARAVILLA,jhosua.nunez@est.ulsa.edu.ni,24-A0301-0183,ACTIVO,15/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0200-0184,JUAN ANDRES BALTODANO HERNANDEZ,juan.baltodano@est.ulsa.edu.ni,24-A0200-0184,ACTIVO,15/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0185,JEFFERSON NAHUN CORTEZ CANALES,jefferson.cortez@est.ulsa.edu.ni,24-A0101-0185,ACTIVO,15/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0186,JUAN JOSE MORADEL HERNANDEZ,juan.moradel@est.ulsa.edu.ni,24-A0301-0186,ACTIVO,15/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0187,ENGEL MARCELO MARTINEZ SILVA,engel.martinez@est.ulsa.edu.ni,24-A0301-0187,ACTIVO,15/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0188,IRVING JOSE LLANES,irving.llanes@est.ulsa.edu.ni,24-A0101-0188,RETIRO TEMPORAL,15/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0189,ELIAM JANIL GONZALEZ GONZALEZ,eliam.gonzalez@est.ulsa.edu.ni,24-A0201-0189,ACTIVO,15/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0191,ANDRES ARMANDO QUINTERO POZO,andres.quintero@est.ulsa.edu.ni,24-A0201-0191,ACTIVO,15/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0192,MARCELO DAVID CENTENO MORALES,marcelo.centeno@est.ulsa.edu.ni,24-A0301-0192,ACTIVO,15/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0300-0194,NAHOMI DEYANARA ACUÑA QUIROZ,nahomi.acuna@est.ulsa.edu.ni,24-A0300-0194,ACTIVO,15/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0195,ALEXANDER GABRIEL ESCOTO MEDRANO,alexander.escoto@est.ulsa.edu.ni,24-A0201-0195,ACTIVO,15/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0196,JONATHAN ANTONIO PINEDA GARCIA,jonathan.pineda@est.ulsa.edu.ni,24-A0301-0196,ACTIVO,15/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0197,LAURA ISABEL RODRIGUEZ BALDIZON,laura.rodriguez@est.ulsa.edu.ni,24-A0201-0197,RETIRO TEMPORAL,15/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0200-0198,ELIZABETH DEL CARMEN TORRES ROMERO,elizabeth.torres@est.ulsa.edu.ni,24-A0200-0198,ACTIVO,15/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0193,JOSE EDUARDO CASTILLO CENTENO,jose.castillo.01@est.ulsa.edu.ni,24-A0201-0193,ACTIVO,15/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0199,JOSE ANTONIO COLINDRES CACERES,jose.colindres@est.ulsa.edu.ni,24-A0101-0199,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0200,ROBERTO JOSE RUIZ MORENO,roberto.ruiz@est.ulsa.edu.ni,24-A0301-0200,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0201,AUSTIM ORLANDO AGUILAR ULLOA,austin.aguilar@est.ulsa.edu.ni,24-A0101-0201,ACTIVO,16/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0202,JERSON DAVID CABALLERO MOYA,jerson.caballero@est.ulsa.edu.ni,24-A0201-0202,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0204,ANDRES JOSUE LIRA RIVERA,andres.lira@est.ulsa.edu.ni,24-A0201-0204,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0203,CARLOS ADAN AVENDAÑO MIRANDA,carlos.avendano@est.ulsa.edu.ni,24-A0201-0203,ACTIVO,16/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0205,SERGIO ALFONZO LIZANO RODRIGUEZ,sergio.lizano@est.ulsa.edu.ni,24-A0201-0205,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0206,DANILO ABSALON PALADINO RODRIGUEZ,danilo.paladino@est.ulsa.edu.ni,24-A0301-0206,ACTIVO,16/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0207,JUAN ALBERTO HERNANDEZ ESPINOZA,juan.hernandez.01@est.ulsa.edu.ni,24-A0301-0207,NO MATRICULADO,16/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0208,JAVIER ANTONIO VEGA TORREZ,javier.vega@est.ulsa.edu.ni,24-A0301-0208,NO MATRICULADO,16/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0209,BLADIMIR FRANCISCO DIAZ URBINA,bladimir.diaz@est.ulsa.edu.ni,24-A0201-0209,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0800-0210,MARIA FERNANDA MARTINEZ RIVERA,maria.martinez@est.ulsa.edu.ni,24-A0800-0210,BAJA ACADÉMICA,16/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0401-0211,JONATHAN JOSE RODRIGUEZ DELGADO,jonathan.rodriguez@est.ulsa.edu.ni,24-A0401-0211,ACTIVO,16/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0101-0212,FERNANDO EMILIO CRUZ RAMIREZ,fernando.cruz.01@est.ulsa.edu.ni,24-A0101-0212,RETIRO TEMPORAL,16/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0200-0213,THAIRYS RAQUEL CRUZ RAMIREZ,thairys.cruz@est.ulsa.edu.ni,24-A0200-0213,RETIRO TEMPORAL,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0100-0214,MERCEDES ALEJANDRA BLANDON HERNANDEZ,mercedes.blandon@est.ulsa.edu.ni,24-A0100-0214,ACTIVO,16/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0215,EDUARLIN ISAIAS ABREGO AGUILAR,eduarlin.abrego@est.ulsa.edu.ni,24-A0201-0215,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0216,ABELINO DE JESUS ROJAS ESTRADA,abelino.rojas@est.ulsa.edu.ni,24-A0201-0216,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0217,JOSE ARMANDO ESCALANTE ESTRADA,jose.escalante@est.ulsa.edu.ni,24-A0201-0217,BAJA ACADÉMICA,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0218,JONATHAN OCTAVIO CHAVARRIA ESPINOZA,jonathan.chavarria@est.ulsa.edu.ni,24-A0201-0218,RETIRO TEMPORAL,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0219,KEVIN JOSE ACEVEDO ESTRADA,kevin.acevedo@est.ulsa.edu.ni,24-A0101-0219,NO MATRICULADO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0220,ELIAS JOSUE ROMERO,elias.romero@est.ulsa.edu.ni,24-A0201-0220,BAJA ACADÉMICA,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0221,ALVARO JOSUE DELGADO MIDENCE,alvaro.delgado@est.ulsa.edu.ni,24-A0201-0221,RETIRO DEFINITIVO,16/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0222,FERNANDO FRANCISCO RIVAS SALGADO,fernando.rivas.01@est.ulsa.edu.ni,24-A0101-0222,RETIRO TEMPORAL,16/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0223,ISAAC ABRAHAM TRAÑA SANDINO,isaac.trana@est.ulsa.edu.ni,24-A0101-0223,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0224,ROWAN DAVID MARTINEZ HERRERA,rowan.martinez@est.ulsa.edu.ni,24-A0201-0224,BAJA ACADÉMICA,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0225,WILLHELM MARTIN MENDOZA ESCOBAR,willhelm.mendoza@est.ulsa.edu.ni,24-A0101-0225,NO MATRICULADO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0226,YESER ANTONIO LOPEZ AGUIRREZ,yeser.lopez@est.ulsa.edu.ni,24-A0101-0226,BAJA ACADÉMICA,16/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0300-0227,LESBIA DEL FATIMA MORALES CARCACHE,lesbia.morales@est.ulsa.edu.ni,24-A0300-0227,NO MATRICULADO,16/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0228,ADRIANA EMANUELA RUIZ GONZALEZ,adriana.ruiz@est.ulsa.edu.ni,24-A0300-0228,ACTIVO,16/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0229,ALVARO SAMIR AVILES MARTINEZ,alvaro.aviles@est.ulsa.edu.ni,24-A0201-0229,ACTIVO,16/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0230,JOSEPH TRINIDAD GARCIA PEREZ,joseph.garcia@est.ulsa.edu.ni,24-A0301-0230,ACTIVO,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0231,CRISTOPHER NOEL TREJOS MEMBREÑO,cristopher.trejos@est.ulsa.edu.ni,24-A0301-0231,BAJA ACADÉMICA,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0232,JIMMY DE JESUS CENTENO HERNANDEZ,jimmy.centeno@est.ulsa.edu.ni,24-A0301-0232,ACTIVO,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0233,JOSE RAUL LOPEZ LANZAS,jose.lopez.03@est.ulsa.edu.ni,24-A0101-0233,ACTIVO,18/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0801-0234,JOSE ISAAC RIVAZ BARRETO,jose.rivaz@est.ulsa.edu.ni,24-A0801-0234,BAJA ACADÉMICA,18/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0300-0235,JENIFER  ANTONIA MARADIAGA RAMIREZ,jenifer.maradiaga@est.ulsa.edu.ni,24-A0300-0235,ACTIVO,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0236,NAHUM GONZALO ZAMORA MORENO,nahum.zamora@est.ulsa.edu.ni,24-A0201-0236,ACTIVO,18/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0237,OCTAVIO JOSE PICADO RAMIREZ,octavio.picado@est.ulsa.edu.ni,24-A0101-0237,ACTIVO,18/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0239,GUILLERMO JESUS GONZALEZ RUEDA,guillermo.gonzalez@est.ulsa.edu.ni,24-A0201-0239,RETIRO TEMPORAL,18/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0240,ABDIEL NAHUM CANALES SILVA,abdiel.canales@est.ulsa.edu.ni,24-A0401-0240,RETIRO DEFINITIVO,18/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0101-0241,JOSUE DAVID LOPEZ MANZANAREZ,josue.lopez.01@est.ulsa.edu.ni,24-A0101-0241,ACTIVO,18/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0242,HENRRY GAMALIEL DONAIRE ARBIZU,henrry.donaire@est.ulsa.edu.ni,24-A0201-0242,RETIRO DEFINITIVO,18/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0244,LEANDRO JOSE ROBELO MORA,leandro.robelo@est.ulsa.edu.ni,24-A0401-0244,ACTIVO,18/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0201-0245,MARIO ALEJANDRO ROQUE MORALES,mario.roque@est.ulsa.edu.ni,24-A0201-0245,BAJA ACADÉMICA,18/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0246,CELSO ALEXIS BAQUEDANO MEZA,celso.baquedano@est.ulsa.edu.ni,24-A0201-0246,ACTIVO,18/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0247,CARLOS ALBERTO REYES BUSTAMANTE,carlos.reyes@est.ulsa.edu.ni,24-A0101-0247,ACTIVO,18/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0248,JOSTIN JAVIER GARIN HERNANDEZ,jostin.garin@est.ulsa.edu.ni,24-A0201-0248,ACTIVO,18/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0249,BRAYAN MICHAEL GUERRERO BAEZ,brayan.guerrero@est.ulsa.edu.ni,24-A0201-0249,ACTIVO,18/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0250,NELSON JAVIER MORENO RAMIREZ,nelson.moreno@est.ulsa.edu.ni,24-A0101-0250,ACTIVO,18/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0700-0251,ALBA NAZARET SOSA CENTENO,alba.sosa@est.ulsa.edu.ni,24-A0700-0251,ACTIVO,18/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0201-0252,GEORGE THAILERS SALDAÑA URBINA,george.saldana@est.ulsa.edu.ni,24-A0201-0252,ACTIVO,18/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0253,YEYSA VALERIA GUTIERREZ CARDENAL,yeysa.gutierrez@est.ulsa.edu.ni,24-A0300-0253,ACTIVO,18/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0254,ARIEL IVAN GUIDO ZAMORA,ariel.guido@est.ulsa.edu.ni,24-A0201-0254,ACTIVO,18/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0100-0255,MARIA ISABELLA BARRERA RODRIGUEZ,maria.barrera@est.ulsa.edu.ni,24-A0100-0255,ACTIVO,18/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0401-0256,GABRIEL AGUSTIN RUBI CARCACHE,gabriel.rubi@est.ulsa.edu.ni,24-A0401-0256,BAJA ACADÉMICA,18/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0300-0257,LAYSA MONTSERRAT DIAZ BETANCOURT,laysa.diaz@est.ulsa.edu.ni,24-A0300-0257,BAJA ACADÉMICA,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0258,AGNER MIGUEL DELGADO RUBI,agner.delgado@est.ulsa.edu.ni,24-A0301-0258,NO MATRICULADO,18/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0260,BRYAN EZEQUIEL PARADA ZELAYA,bryan.parada@est.ulsa.edu.ni,24-A0201-0260,BAJA ACADÉMICA,18/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0800-0261,FRANCIS ALONDRA RIOS CASTILLO,francis.rios@est.ulsa.edu.ni,24-A0800-0261,RETIRO TEMPORAL,18/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0101-0262,ELMER LEONEL HERNANDEZ BACA,elmer.hernandez@est.ulsa.edu.ni,24-A0101-0262,BAJA ACADÉMICA,18/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0259,JUNIOR SANTIAGO SOLIS BENAVIDES,junior.solis@est.ulsa.edu.ni,24-A0301-0259,RETIRO DEFINITIVO,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0300-0263,GREYLING ANDREA OSORIO GARCIA,greyling.osorio@est.ulsa.edu.ni,24-A0300-0263,ACTIVO,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0801-0264,WILLIAM IVAN AVILEZ MENDOZA,william.avilez@est.ulsa.edu.ni,24-A0801-0264,ACTIVO,18/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0101-0265,MARKO ANTONIO RAMIREZ MENDOZA,marko.ramirez@est.ulsa.edu.ni,24-A0101-0265,ACTIVO,18/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0300-0266,MARIA JOSE MARTINEZ MARTINEZ,maria.martinez.01@est.ulsa.edu.ni,24-A0300-0266,BAJA ACADÉMICA,18/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0267,EMMANUEL ADRIAN FLORES HERNANDEZ,emmanuel.flores@est.ulsa.edu.ni,24-A0201-0267,BAJA ACADÉMICA,18/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0268,NATHALY MERCEDES SANCHEZ RIVAS,nathaly.sanchez@est.ulsa.edu.ni,24-A0300-0268,ACTIVO,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0801-0269,SAYDA LIZANIA ROSTRAN OBANDO,sayda.rostran@est.ulsa.edu.ni,24-A0801-0269,ACTIVO,18/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0300-0270,DALAY SUJO GODOY,dalay.sujo@est.ulsa.edu.ni,24-A0300-0270,ACTIVO,18/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0271,BRAYAN JOSUE CHAVEZ ROCHA,brayan.chavez@est.ulsa.edu.ni,24-A0201-0271,BAJA ACADÉMICA,18/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0272,JUAN FRANCISCO PINEDA GARCIA,juan.pineda@est.ulsa.edu.ni,24-A0201-0272,ACTIVO,18/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0273,JAYNNER RAUL MATUS SOTO,jaynner.matus@est.ulsa.edu.ni,24-A0301-0273,BAJA ACADÉMICA,18/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0274,ADONIS ALEXANDER SANCHEZ OROZCO,adonis.sanchez@est.ulsa.edu.ni,24-A0101-0274,BAJA ACADÉMICA,18/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0275,ESTUARDO JOSUE PANTOJA MELENDEZ,estuardo.pantoja@est.ulsa.edu.ni,24-A0201-0275,BAJA ACADÉMICA,18/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0276,JESUS ENMANUEL PEREZ GONZALEZ,jesus.perez.01@est.ulsa.edu.ni,24-A0401-0276,ACTIVO,19/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0301-0277,ERVING EDUARDO ZAPATA LLANES,erving.zapata@est.ulsa.edu.ni,24-A0301-0277,NO MATRICULADO,19/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0279,FLEMING SEBASTIAN MEJIA RODRIGUEZ,fleming.mejia@est.ulsa.edu.ni,24-A0101-0279,RETIRO TEMPORAL,19/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0300-0278,MERCEDES GUADALUPE SARRIA ARAGON,mercedes.sarria@est.ulsa.edu.ni,24-A0300-0278,BAJA ACADÉMICA,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0280,DORIAN DANILO MUÑOZ GARCIA,dorian.munoz@est.ulsa.edu.ni,24-A0201-0280,ACTIVO,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0281,CESAR EDUARDO AREAS PINEDA,cesar.areas@est.ulsa.edu.ni,24-A0101-0281,BAJA ACADÉMICA,19/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0283,JAIRO DUJARLING MARTINEZ LAGOS,jairo.martinez.01@est.ulsa.edu.ni,24-A0201-0283,ACTIVO,19/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0284,REBECA VALESKA SANCHEZ PAZ,rebeca.sanchez@est.ulsa.edu.ni,24-A0300-0284,RETIRO DEFINITIVO,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0285,FREDERMAN MENDEZ DUBON,frederman.mendez@est.ulsa.edu.ni,24-A0201-0285,BAJA ACADÉMICA,19/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0286,FRANCISCO JAVIER BENAVIDEZ OROZCO,francisco.benavidez@est.ulsa.edu.ni,24-A0201-0286,RETIRO TEMPORAL,19/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0287,JOSSER FRANCISCO MALDONADO SANCHEZ,josser.maldonado@est.ulsa.edu.ni,24-A0101-0287,ACTIVO,19/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0288,LUIS DAVID RUIZ SANCHEZ,luis.ruiz.01@est.ulsa.edu.ni,24-A0101-0288,BAJA ACADÉMICA,19/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0289,ADIACT JOSUE MAIRENA MARIN,adiact.mairena@est.ulsa.edu.ni,24-A0201-0289,ACTIVO,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0290,LUIS ALBERTO RUEDA SOMARRIBA,luis.rueda@est.ulsa.edu.ni,24-A0301-0290,ACTIVO,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0291,HAYDER FABRIETH ZELEDON MENDOZA,hayder.zeledon@est.ulsa.edu.ni,24-A0201-0291,ACTIVO,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0292,YASMIN ELEAM OLIVAS RAMIREZ,yasmin.olivas@est.ulsa.edu.ni,24-A0300-0292,ACTIVO,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0293,JONATAN JOSUE PICHARDO GUNERA,jonatan.pichardo@est.ulsa.edu.ni,24-A0101-0293,BAJA ACADÉMICA,19/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0294,LUIS ANTONIO MARTINEZ TORREZ,luis.martinez.01@est.ulsa.edu.ni,24-A0101-0294,ACTIVO,19/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0101-0295,ENRIQUE JESUS PICHARDO CASTILLO,enrique.pichardo@est.ulsa.edu.ni,24-A0101-0295,ACTIVO,19/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0700-0296,MELANNY ALEJANDRA ARAGON DIAZ,melanny.aragon@est.ulsa.edu.ni,24-A0700-0296,ACTIVO,19/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0101-0298,MICHAEL JAVIER MASIS LOPEZ,michael.masis@est.ulsa.edu.ni,24-A0101-0298,ACTIVO,19/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0201-0299,ISMAEL ANTONIO MENDOZA PAIZ,ismael.mendoza@est.ulsa.edu.ni,24-A0201-0299,BAJA ACADÉMICA,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0700-0300,LAUREN GUADALUPE VELASQUEZ VELASQUEZ,lauren.velasquez@est.ulsa.edu.ni,24-A0700-0300,NO MATRICULADO,19/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0201-0301,LUIS ALEXANDER DAVILA ZEPEDA,luis.davila.02@est.ulsa.edu.ni,24-A0201-0301,BAJA ACADÉMICA,19/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0302,JAIRO MIGUEL MEZA SALINAS,jairo.meza@est.ulsa.edu.ni,24-A0201-0302,ACTIVO,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0303,SERGIO EFRAIN RIVAS JIRON,sergio.rivas@est.ulsa.edu.ni,24-A0201-0303,BAJA ACADÉMICA,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0304,JASSIR VLADIMIR REYES BETANCO,jassir.reyes@est.ulsa.edu.ni,24-A0301-0304,RETIRO TEMPORAL,19/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0305,JONATHAN ISAAC MARTINEZ CHEVEZ,jonathan.martinez@est.ulsa.edu.ni,24-A0301-0305,RETIRO TEMPORAL,19/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0306,ERICK SAMUEL TELLEZ LOPEZ,erick.tellez@est.ulsa.edu.ni,24-A0301-0306,NO MATRICULADO,19/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0307,ARES ALEJANDRO GARCIA CRUZ,ares.garcia@est.ulsa.edu.ni,24-A0201-0307,ACTIVO,19/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0308,JONNATHAN DAVID CASTILLO PEREZ,jonnathan.castillo@est.ulsa.edu.ni,24-A0301-0308,ACTIVO,19/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0309,ERIKA NATALIA QUEZADA ESPINALEZ,erika.quezada@est.ulsa.edu.ni,24-A0300-0309,NO MATRICULADO,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0300-0310,LILLIAM DEL CARMEN OSEJO ESCALANTE,lilliam.osejo@est.ulsa.edu.ni,24-A0300-0310,ACTIVO,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0311,ALEX JOSEPTH CENTENO SEQUEIRA,alex.centeno@est.ulsa.edu.ni,24-A0101-0311,NO MATRICULADO,19/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0401-0312,JEAN CARLOS PACHECO PINEDA,jean.pacheco@est.ulsa.edu.ni,24-A0401-0312,BAJA ACADÉMICA,19/12/2023,Diurno,Ingeniería en Cibernética Electrónica
+24-A0300-0313,DANIELA ALEJANDRA SAENZ CASTILLO,daniela.saenz@est.ulsa.edu.ni,24-A0300-0313,ACTIVO,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0314,JEFFRY LENIN DARCE CASTILLO,jeffry.darce@est.ulsa.edu.ni,24-A0201-0314,NO MATRICULADO,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0315,JONATHAN JOSUE DONAIRE ALVARADO,jonathan.donaire@est.ulsa.edu.ni,24-A0201-0315,RETIRO DEFINITIVO,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0700-0316,NATASHA MICHELLE ESPINOZA FONSECA,natasha.espinoza@est.ulsa.edu.ni,24-A0700-0316,RETIRO DEFINITIVO,19/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0201-0317,BRYAN ALEXANDER ESPINOZA FONSECA,bryan.espinoza.01@est.ulsa.edu.ni,24-A0201-0317,ACTIVO,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0318,BRANDON CHAVARRIA CHANG,brandon.chavarria@est.ulsa.edu.ni,24-A0301-0318,ACTIVO,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0319,JAHIR JOSE SOZA BALTODANO,jahir.soza@est.ulsa.edu.ni,24-A0301-0319,BAJA ACADÉMICA,19/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0300-0320,DULCE ABIGAIL RUIZ RODRIGUEZ,dulce.ruiz@est.ulsa.edu.ni,24-A0300-0320,ACTIVO,19/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0701-0321,JOSTIN ANTONIO CAMPOS TRAÑA,jostin.campos@est.ulsa.edu.ni,24-A0701-0321,RETIRO DEFINITIVO,19/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0800-0322,ROSITA NOEMI ROBLETO CARRILLO,rosita.robleto@est.ulsa.edu.ni,24-A0800-0322,ACTIVO,19/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0201-0323,DYLAN JOSUE CENTENO GARCIA,dylan.centeno@est.ulsa.edu.ni,24-A0201-0323,ACTIVO,19/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0800-0324,DANA DE LOS ANGELES FONSECA HERNANDEZ,dana.fonseca@est.ulsa.edu.ni,24-A0800-0324,RETIRO DEFINITIVO,19/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0201-0325,PAULO MARCELO VILCHEZ MUNGUIA,paulo.vilchez@est.ulsa.edu.ni,24-A0201-0325,NO MATRICULADO,19/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0327,JULIO EMMANUEL BLANCO OBANDO,julio.blanco@est.ulsa.edu.ni,24-A0201-0327,BAJA ACADÉMICA,20/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0328,EDBER ENDERSON ZAMBRANA MENDOZA,edber.zambrana@est.ulsa.edu.ni,24-A0201-0328,ACTIVO,20/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0329,BISMAR ANDRES QUINTERO DELGADO,bismar.quintero@est.ulsa.edu.ni,24-A0201-0329,ACTIVO,20/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0330,CHRISTOPHER JOSE RUEDA AVENDAÑO,christopher.rueda@est.ulsa.edu.ni,24-A0101-0330,ACTIVO,20/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0701-0331,DULCE MARIA SOLIS QUIROZ,dulce.solis@est.ulsa.edu.ni,24-A0701-0331,ACTIVO,20/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0201-0332,RODOLFO ENMANUEL ESTRADA PALACIOS,rodolfo.estrada@est.ulsa.edu.ni,24-A0201-0332,ACTIVO,20/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0333,RAMIRO MAGDIEL RIVAS ACUÑA,ramiro.rivas@est.ulsa.edu.ni,24-A0301-0333,BAJA ACADÉMICA,20/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0700-0334,ANDREA SOFIA CANO PASCASIO,andrea.cano@est.ulsa.edu.ni,24-A0700-0334,ACTIVO,20/12/2023,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0301-0336,JOSIMAR FRANCISCO AVELARES LIRA,josimar.avelares@est.ulsa.edu.ni,24-A0301-0336,ACTIVO,20/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0800-0337,KARELLYS LEONOR RODRIGUEZ ZAPATA,karellys.rodriguez@est.ulsa.edu.ni,24-A0800-0337,ACTIVO,20/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0101-0339,CHRISTOFER GABRIEL ARRIETA,christofer.arrieta@est.ulsa.edu.ni,24-A0101-0339,ACTIVO,20/12/2023,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0300-0340,MABEL NICOLE MEDINA HERRADORA,mabel.medina@est.ulsa.edu.ni,24-A0300-0340,RETIRO TEMPORAL,20/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0341,BRYAN ALI HERNANDEZ RIVERA,bryan.hernandez@est.ulsa.edu.ni,24-A0201-0341,BAJA ACADÉMICA,20/12/2023,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0342,JUAN CARLOS MARTINEZ MARTINEZ,juan.martinez.01@est.ulsa.edu.ni,24-A0301-0342,ACTIVO,20/12/2023,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0343,MARCOS IGNACIO BENAVIDEZ MENDOZA,marcos.benavidez@est.ulsa.edu.ni,24-A0101-0343,BAJA ACADÉMICA,20/12/2023,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0801-0344,JOSE GABRIEL MARENCO VELASQUEZ,jose.marenco@est.ulsa.edu.ni,24-A0801-0344,RETIRO TEMPORAL,20/12/2023,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0301-0345,SALVADOR FRANCISCO PEREIRA BENEDIT,salvador.pereira@est.ulsa.edu.ni,24-A0301-0345,NO MATRICULADO,20/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0200-0346,HAZEL TATIANA CABALLERO MEZA,hazel.caballero@est.ulsa.edu.ni,24-A0200-0346,ACTIVO,20/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0347,SNEYDER JOSE ROMERO AGUILERA,sneyder.romero@est.ulsa.edu.ni,24-A0301-0347,BAJA ACADÉMICA,20/12/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0348,JUAN CARLOS MEDINA RIOS,juan.medina@est.ulsa.edu.ni,24-A0201-0348,BAJA ACADÉMICA,20/12/2023,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0349,AMY GUISELLE CABALLERO CARRILLO,amy.caballero@est.ulsa.edu.ni,24-A0300-0349,BAJA ACADÉMICA,05/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0350,EDWAR STEVEN ZEPEDA GARCIA,edwar.zepeda@est.ulsa.edu.ni,24-A0201-0350,ACTIVO,05/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0352,DENZEL RAMESES MENDOZA SEQUEIRA,denzel.mendoza@est.ulsa.edu.ni,24-A0101-0352,ACTIVO,05/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0700-0351,ADRIANA SOFIA MARTINEZ BERMEJO,adriana.martinez@est.ulsa.edu.ni,24-A0700-0351,ACTIVO,05/01/2024,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0101-0353,CARLOS ERNESTO CABALLERO VILCHEZ,carlos.caballero@est.ulsa.edu.ni,24-A0101-0353,ACTIVO,05/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0354,YAHTIN AARON OBREGON RAMIREZ,yahtin.obregon@est.ulsa.edu.ni,24-A0301-0354,ACTIVO,05/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0355,PEDRO ANTONY PORTOBANCO PAREDES,pedro.portobanco@est.ulsa.edu.ni,24-A0201-0355,NO MATRICULADO,05/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0700-0356,LAUREN ENGRACIA MEZA SALINAS,lauren.meza@est.ulsa.edu.ni,24-A0700-0356,ACTIVO,05/01/2024,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0401-0357,KEVIN ISMAEL PRADO GARCIA,kevin.prado.01@est.ulsa.edu.ni,24-A0401-0357,NO MATRICULADO,05/01/2024,Diurno,Ingeniería en Cibernética Electrónica
+24-A0201-0358,WILLIAM ENRIQUE ANDRADE BAEZ,william.andrade@est.ulsa.edu.ni,24-A0201-0358,ACTIVO,05/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0359,MARTIN DE JESUS ROSALES SANCHEZ,martin.rosales@est.ulsa.edu.ni,24-A0101-0359,NO MATRICULADO,05/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0360,ALEJANDRO MIGUEL RUIZ NUÑEZ,alejandro.ruiz@est.ulsa.edu.ni,24-A0301-0360,ACTIVO,05/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0361,JULISSA PETRONA DE LOS ANGELES HERNANDEZ SANDOVAL,julissa.hernandez@est.ulsa.edu.ni,24-A0300-0361,RETIRO DEFINITIVO,05/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0362,NAYELI ISABEL RUIZ MEDINA,nayeli.ruiz@est.ulsa.edu.ni,24-A0301-0362,ACTIVO,05/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0363,ROBERTO HUGO LACAYO MARTINEZ,roberto.lacayo@est.ulsa.edu.ni,24-A0201-0363,ACTIVO,05/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0364,ANTONIS JAVIER MAYORGA TORREZ,antonis.mayorga@est.ulsa.edu.ni,24-A0301-0364,ACTIVO,06/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0365,ERWIN NOEL GOMEZ BLANDON,erwin.gomez@est.ulsa.edu.ni,24-A0301-0365,BAJA ACADÉMICA,06/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0368,LESBIA LUCIA LOPEZ MOLINA,lesbia.lopez@est.ulsa.edu.ni,24-A0300-0368,RETIRO DEFINITIVO,06/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0300-0369,KARLA PATRICIA HERNANDEZ PAIZ,karla.hernandez@est.ulsa.edu.ni,24-A0300-0369,BAJA ACADÉMICA,08/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0800-0370,LIZ MARINES MONCADA BERRIOS,liz.moncada@est.ulsa.edu.ni,24-A0800-0370,ACTIVO,08/01/2024,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0201-0371,JULIO CESAR PEREZ NORORI,julio.perez@est.ulsa.edu.ni,24-A0201-0371,ACTIVO,08/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0372,LENIN JOSE QUIROZ HERNANDEZ,lenin.quiroz@est.ulsa.edu.ni,24-A0301-0372,NO MATRICULADO,08/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0373,HENRY ARISTIDES MAYORGA DOLMUS,henry.mayorga@est.ulsa.edu.ni,24-A0201-0373,RETIRO TEMPORAL,08/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0374,ROUSELL FABRICIO REYES CUBILLO,rousell.reyes@est.ulsa.edu.ni,24-A0201-0374,ACTIVO,08/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0375,DAVID JOSUE LARGAESPADA BAQUEDANO,david.largaespada@est.ulsa.edu.ni,24-A0101-0375,ACTIVO,08/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0376,JORDAN JOSUE PAREDES FLETES,jordan.paredes@est.ulsa.edu.ni,24-A0101-0376,NO MATRICULADO,08/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0377,FABIAN ERNESTO NAJARES ROSTRAN,fabian.najares@est.ulsa.edu.ni,24-A0301-0377,BAJA ACADÉMICA,08/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0378,NICOLL YULISSA LOPEZ VARGAS,nicoll.lopez@est.ulsa.edu.ni,24-A0300-0378,RETIRO DEFINITIVO,08/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0379,ANDREA PATRICIA RIZO PALACIOS,andrea.rizo@est.ulsa.edu.ni,24-A0300-0379,BAJA ACADÉMICA,08/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0380,GUSTAVO FRANCISCO IBARRA SANCHEZ,gustavo.ibarra@est.ulsa.edu.ni,24-A0301-0380,ACTIVO,08/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0800-0381,DANNA YOKASTA ARAUZ MARADIAGA,danna.arauz@est.ulsa.edu.ni,24-A0800-0381,ACTIVO,08/01/2024,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0201-0382,EDWING JOSUE MARTINEZ RUIZ,edwing.martinez@est.ulsa.edu.ni,24-A0201-0382,NO MATRICULADO,08/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0383,MANUEL ALEXANDER ORDOÑEZ MEMBREÑO,manuel.ordonez@est.ulsa.edu.ni,24-A0101-0383,BAJA ACADÉMICA,08/01/2024,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0301-0384,DANIEL ANTONIO NARVAEZ MEDINA,daniel.narvaez@est.ulsa.edu.ni,24-A0301-0384,ACTIVO,08/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0385,JORGE ALBERTO SANCHEZ OVIEDO,jorge.sanchez@est.ulsa.edu.ni,24-A0201-0385,ACTIVO,09/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0386,LESTER SAMUEL HERNANDEZ,lester.hernandez.01@est.ulsa.edu.ni,24-A0101-0386,BAJA ACADÉMICA,09/01/2024,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0301-0387,WALTER FERNANDO IGLESIAS ARAGON,walter.iglesias@est.ulsa.edu.ni,24-A0301-0387,ACTIVO,09/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0388,ROLANDO JOSEPH CARCAMO BENDAÑA,rolando.carcamo@est.ulsa.edu.ni,24-A0101-0388,ACTIVO,09/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0389,JOEL ALBERTO HERNANDEZ GUTIERREZ,joel.hernandez@est.ulsa.edu.ni,24-A0301-0389,RETIRO DEFINITIVO,09/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0390,ERNESTO GABRIEL CASTILLO SOMARRIBA,ernesto.castillo@est.ulsa.edu.ni,24-A0201-0390,BAJA ACADÉMICA,09/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0300-0391,CALLY EVANGELINA ROBLETO CASTILLO,cally.robleto@est.ulsa.edu.ni,24-A0300-0391,RETIRO DEFINITIVO,09/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0401-0392,ELIAN ALEXANDER MARTINEZ SANDOVAL,elian.martinez@est.ulsa.edu.ni,24-A0401-0392,NO MATRICULADO,10/01/2024,Diurno,Ingeniería en Cibernética Electrónica
+24-A0300-0393,GUISSELLE CAROLINA BLANCO TEJEDA,guisselle.blanco@est.ulsa.edu.ni,24-A0300-0393,ACTIVO,10/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0394,MARCELO EDUARDO GALO ROJAS,marcelo.galo@est.ulsa.edu.ni,24-A0301-0394,ACTIVO,10/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0395,MAVERICK ANDRES RIVERA URTECHO,maverick.rivera@est.ulsa.edu.ni,24-A0301-0395,ACTIVO,10/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0396,JUAN MARIANO RODRIGUEZ CABALLERO,juan.rodriguez.01@est.ulsa.edu.ni,24-A0301-0396,ACTIVO,10/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0397,JOSE CARLOS MAIRENA MEDINA,jose.mairena@est.ulsa.edu.ni,24-A0101-0397,NO MATRICULADO,10/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0300-0398,MICHELLE GUADALUPE LOPEZ LOPEZ,michelle.lopez@est.ulsa.edu.ni,24-A0300-0398,ACTIVO,10/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0399,GONZALO ENMANUEL DARCE OROZCO,gonzalo.darce@est.ulsa.edu.ni,24-A0301-0399,ACTIVO,11/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0400,ABSALON CANALES GOMEZ,absalon.canales@est.ulsa.edu.ni,24-A0301-0400,BAJA ACADÉMICA,11/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0401,CARLOS ENRIQUE SANCHEZ CARRERO,carlos.sanchez.02@est.ulsa.edu.ni,24-A0201-0401,ACTIVO,11/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0402,STEPHEN JOSE CROVETTO HERNANDEZ,stephen.crovetto@est.ulsa.edu.ni,24-A0101-0402,ACTIVO,11/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0403,JOSE CARLOS CANALES GOMEZ,jose.canales@est.ulsa.edu.ni,24-A0201-0403,ACTIVO,11/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0404,KEVIN SAMUEL CHAVARRIA,kevin.chavarria@est.ulsa.edu.ni,24-A0101-0404,BAJA ACADÉMICA,11/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0405,GOLMER JESUS NARVAEZ ESCALANTE,golmer.narvaez@est.ulsa.edu.ni,24-A0201-0405,NO MATRICULADO,11/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0406,KEVIN YAHIR JIMENEZ BERRIOS,kevin.jimenez@est.ulsa.edu.ni,24-A0301-0406,ACTIVO,11/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0408,SAIR ADRIEL PAIZ TRUJILLO,sair.paiz@est.ulsa.edu.ni,24-A0101-0408,ACTIVO,12/01/2024,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0101-0409,BRYAN JOSUE MENDEZ PALACIO,bryan.mendez@est.ulsa.edu.ni,24-A0101-0409,NO MATRICULADO,12/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0410,ERASMO JOSE UBEDA SILVA,erasmo.ubeda@est.ulsa.edu.ni,24-A0101-0410,RETIRO DEFINITIVO,12/01/2024,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0300-0411,NOELIA KARINA CARDOZA OLIVARES,noelia.cardoza@est.ulsa.edu.ni,24-A0300-0411,ACTIVO,13/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0412,LOHANA FERNANDA SORIANO ROCHA,lohana.soriano@est.ulsa.edu.ni,24-A0301-0412,BAJA ACADÉMICA,13/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0200-0407,HILARY DANIELA LOPEZ OSABAS,hilary.lopez@est.ulsa.edu.ni,24-A0200-0407,RETIRO TEMPORAL,11/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0413,WENDELL GUILLERMO RAMIREZ LEWIS,wendell.ramirez@est.ulsa.edu.ni,24-A0101-0413,RETIRO DEFINITIVO,13/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0415,MARIO ISAIAS MEDINA IBARRA,mario.medina.01@est.ulsa.edu.ni,24-A0201-0415,NO MATRICULADO,13/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0416,CARLOS ALBERTO RIVAS RODRIGUEZ,carlos.rivas@est.ulsa.edu.ni,24-A0301-0416,ACTIVO,13/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0800-0417,ADHILY DEL CARMEN BORDAS MEDINA,adhily.bordas@est.ulsa.edu.ni,24-A0800-0417,ACTIVO,13/01/2024,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0301-0418,JOSE ANGEL BORDAS SAAVEDRA,jose.bordas@est.ulsa.edu.ni,24-A0301-0418,ACTIVO,13/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0419,JUNIOR SAMUEL MARTINEZ JIMENEZ,junior.martinez@est.ulsa.edu.ni,24-A0101-0419,ACTIVO,13/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0801-0421,LUIS HUNAB LOPEZ NAVARRO,luis.lopez@est.ulsa.edu.ni,24-A0801-0421,ACTIVO,13/01/2024,Diurno,Licenciatura en Administración con énfasis en Finanzas
+24-A0300-0422,KATHERIN LINETT VALDIVIA MERCADO,katherin.valdivia@est.ulsa.edu.ni,24-A0300-0422,ACTIVO,13/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0423,ELVIN JOSUE ESPINALES RUIZ,elvin.espinales@est.ulsa.edu.ni,24-A0101-0423,BAJA ACADÉMICA,13/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0424,JEFFERSON STEVEN VANEGAS BENAVIDES,jefferson.vanegas@est.ulsa.edu.ni,24-A0201-0424,RETIRO DEFINITIVO,13/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0100-0425,EMILY NAZARETH SALINAS ESTRADA,emily.salinas@est.ulsa.edu.ni,24-A0100-0425,ACTIVO,13/01/2024,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0101-0426,FRANKLIN RAFAEL MONTANO PICHARDO,franklin.montano@est.ulsa.edu.ni,24-A0101-0426,BAJA ACADÉMICA,13/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0427,JORDAN JOSE HERNANDEZ RUEDA,jordan.hernandez@est.ulsa.edu.ni,24-A0101-0427,RETIRO TEMPORAL,13/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0428,AXEL FERNANDO CHAVEZ MONTANO,axel.chavez.01@est.ulsa.edu.ni,24-A0101-0428,ACTIVO,15/01/2024,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0300-0429,EVELYN ELIZABETH TELLEZ OBANDO,evelyn.tellez@est.ulsa.edu.ni,24-A0300-0429,RETIRO DEFINITIVO,15/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0400-0430,EVELING ANAHI MAYORGA GUILLEN,eveling.mayorga@est.ulsa.edu.ni,24-A0400-0430,BAJA ACADÉMICA,15/01/2024,Diurno,Ingeniería en Cibernética Electrónica
+24-A0101-0431,MARIO ROBERTO RIOS GARCIA,mario.rios@est.ulsa.edu.ni,24-A0101-0431,ACTIVO,15/01/2024,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0101-0432,OSWALDO ARIEL AYALA BENITEZ,oswaldo.ayala@est.ulsa.edu.ni,24-A0101-0432,ACTIVO,15/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0301-0434,BRYAN TOMAS VILLEGAS ORTIZ,bryan.villegas@est.ulsa.edu.ni,24-A0301-0434,ACTIVO,15/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0200-0435,JENIFER PATRICIA CALDERON MONTES,jenifer.calderon@est.ulsa.edu.ni,24-A0200-0435,ACTIVO,15/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0436,JOSE ANGEL MARTINEZ TELLEZ,jose.martinez.06@est.ulsa.edu.ni,24-A0301-0436,BAJA ACADÉMICA,15/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0700-0437,KEILY YARITZA RODRIGUEZ RODRIGUEZ,keily.rodriguez@est.ulsa.edu.ni,24-A0700-0437,ACTIVO,15/01/2024,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0301-0438,NESTOR MOISES MEDINA LUQUEZ,nestor.medina@est.ulsa.edu.ni,24-A0301-0438,ACTIVO,15/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0101-0439,ADAN ESTEBAN GUTIERREZ CAMPOS,adan.gutierrez@est.ulsa.edu.ni,24-A0101-0439,NO MATRICULADO,16/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0200-0440,FLAVIA VALENTINA SANDOVAL SAAVEDRA,flavia.sandoval@est.ulsa.edu.ni,24-A0200-0440,BAJA ACADÉMICA,16/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0101-0441,CARLOS MANUEL MUNGUIA MORENO,carlos.munguia@est.ulsa.edu.ni,24-A0101-0441,RETIRO DEFINITIVO,16/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0401-0442,RUSSELL ABRAHAM ESTRADA GARCIA,russel.estrada@est.ulsa.edu.ni,24-A0401-0442,NO MATRICULADO,16/01/2024,Diurno,Ingeniería en Cibernética Electrónica
+24-A0201-0443,JONATHAN ALEXANDER BLANCO URBINA,jonathan.blanco@est.ulsa.edu.ni,24-A0201-0443,ACTIVO,17/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0444,STIVEN ALEXANDER PALMA,stiven.palma@est.ulsa.edu.ni,24-A0401-0444,ACTIVO,17/01/2024,Diurno,Ingeniería en Cibernética Electrónica
+24-A0300-0445,DULCE MARIA LOPEZ DAVILA,dulce.lopez.01@est.ulsa.edu.ni,24-A0300-0445,BAJA ACADÉMICA,17/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0446,KENET ISAAC CARCAMO BONILLA,kenet.carcamo@est.ulsa.edu.ni,24-A0101-0446,BAJA ACADÉMICA,17/01/2024,Diurno,Ingeniería en Mecánica y Energías Renovables
+24-A0301-0448,ESTHARLING NEHEMIAS CASTILLO BORDAS,estharling.castillo@est.ulsa.edu.ni,24-A0301-0448,BAJA ACADÉMICA,18/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0449,JOSE ALBERTO CABALLERO MORALES,jose.caballero@est.ulsa.edu.ni,24-A0301-0449,RETIRO TEMPORAL,18/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0201-0450,CESAR GERARDO ROMAN DOMINGUEZ,cesar.roman@est.ulsa.edu.ni,24-A0201-0450,BAJA ACADÉMICA,18/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0701-0451,WILLIAM ANTONIO RUIZ GUTIERREZ,william.ruiz@est.ulsa.edu.ni,24-A0701-0451,ACTIVO,18/01/2024,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0101-0452,ANIBAL ELIEZER MALTA CHAVEZ,anibal.malta@est.ulsa.edu.ni,24-A0101-0452,ACTIVO,18/01/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0201-0447,DONALD RAMIRO GURDIAN AGUIRRE,donald.gurdian@est.ulsa.edu.ni,24-A0201-0447,BAJA ACADÉMICA,18/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0401-0453,ELIEL OBED ZELAYA GONZALEZ,eliel.zelaya@est.ulsa.edu.ni,24-A0401-0453,ACTIVO,18/01/2024,Diurno,Ingeniería en Cibernética Electrónica
+24-A0201-0454,JOSHUA STEVEN MURILLO VALLEJOS,joshua.murillo@est.ulsa.edu.ni,24-A0201-0454,RETIRO TEMPORAL,19/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0455,AXEL DANILO FLORES SIRIAS,axel.flores@est.ulsa.edu.ni,24-A0201-0455,ACTIVO,19/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0456,JESHUA JOEL ROQUE CASTELLON,jeshua.roque@est.ulsa.edu.ni,24-A0201-0456,ACTIVO,19/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0201-0457,JUSTIN EMANUEL CARRANZA,justin.carranza@est.ulsa.edu.ni,24-A0201-0457,BAJA ACADÉMICA,19/01/2024,Diurno (Sabatino),Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0458,KENNER JESUS SOZA CASTILLO,kenner.soza@est.ulsa.edu.ni,24-A0301-0458,BAJA ACADÉMICA,20/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0300-0459,VIRLENE MERCEDES VEGA PEREZ,virlene.vega@est.ulsa.edu.ni,24-A0300-0459,NO MATRICULADO,20/01/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0460,CARLOS HELEODORO LOPEZ GUERRERO,carlos.lopez.01@est.ulsa.edu.ni,24-A0301-0460,RETIRO TEMPORAL,20/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0201-0461,JOSE ALBERTO OVIEDO PALMA,jose.oviedo@est.ulsa.edu.ni,24-A0201-0461,BAJA ACADÉMICA,20/01/2024,Diurno,Ingeniería en Mecatrónica y Sistemas de Control
+24-A0301-0462,FERNANDO JAEL RUIZ IRIAS,fernando.ruiz.01@est.ulsa.edu.ni,24-A0301-0462,ACTIVO,22/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0301-0463,CRISTOPHER ARIEL CAMACHO SOZA,cristopher.camacho@est.ulsa.edu.ni,24-A0301-0463,ACTIVO,22/01/2024,Diurno,Ingeniería en Gestión Industrial
+24-A0700-0464,MARIA CLARA LARA ALONSO,maria.lara.01@est.ulsa.edu.ni,24-A0700-0464,ACTIVO,25/01/2024,Diurno,Licenciatura Comercial con énfasis en Mercadeo
+24-A0301-0465,GERMAN ERASMO SANDOVAL CARRILLO,german.sandoval@est.ulsa.edu.ni,24-A0301-0465,ACTIVO,23/03/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0466,JOSE DAVID GALEANO MOLINA,jose.galeano.01@est.ulsa.edu.ni,24-A0301-0466,ACTIVO,23/03/2024,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0301-0467,ERICK STEVEN LINARTE RODRIGUEZ,erick.linarte@est.ulsa.edu.ni,24-A0301-0467,ACTIVO,23/03/2023,Diurno (Sabatino),Ingeniería en Gestión Industrial
+24-A0101-0468,OSCAR DANILO COLLADO MUÑOZ,oscar.collado@est.ulsa.edu.ni,24-A0101-0468,ACTIVO,04/04/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0100-0469,AMANDA VANESSA BERRIOS MAIRENA,amanda.berrios@est.ulsa.edu.ni,24-A0100-0469,ACTIVO,05/04/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables
+24-A0101-0470,ERNESTO EXSEQUIEL MORAN GARCIA,ernesto.moran@est.ulsa.edu.ni,24-A0101-0470,ACTIVO,06/04/2024,Diurno (Sabatino),Ingeniería en Mecánica y Energías Renovables

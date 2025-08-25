@@ -11,6 +11,13 @@ pub struct Student {
     pub career: Option<String>,
 }
 
+impl Student {
+    pub fn with_carnet(mut self, carnet: String) -> Self {
+        self.carnet = Some(carnet);
+        self
+    }
+}
+
 #[derive(Serialize, Debug)]
 pub struct StudentRecord<'a> {
     pub code: &'a str,

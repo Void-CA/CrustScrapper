@@ -207,11 +207,11 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let transient = stats.transient.load(Ordering::Relaxed);
     let skipped = stats.skipped.load(Ordering::Relaxed);
 
-    println!("\n✅ Completado en {:.1} min", elapsed.as_secs_f64() / 60.0);
-    println!("   ✅ Encontrados: {found}");
-    println!("   ❌ No encontrados: {not_found}");
-    println!("   ⚠️  Transitorios (revisar): {transient}");
-    println!("   ♻️  Omitidos (ya en CSV): {skipped}");
+    println!("\nCompletado en {:.1} min", elapsed.as_secs_f64() / 60.0);
+    println!("   Encontrados: {found}");
+    println!("   No encontrados: {not_found}");
+    println!("    Transitorios (revisar): {transient}");
+    println!("    Omitidos (ya en CSV): {skipped}");
     println!(
         "   🚀 {:.1} req/s efectivas",
         (found + not_found) as f64 / elapsed.as_secs_f64().max(f64::EPSILON)

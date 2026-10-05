@@ -33,7 +33,7 @@ struct Stats {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let (config_path, limit, only_year) = parse_args();
+    let (config_path, limit, only_year, dry_run) = parse_args();
     let cfg = AppConfig::load(&config_path)?;
 
     let client = Client::builder()
@@ -60,6 +60,15 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         codes.len() - legacy_count,
         legacy_count
     );
+    println!(
+        "   · fallback cambio de carrera: {} | confirmaciones no-encontrado: {}",
+        if cfg.fallback_enabled {
+            "activado"
+        } else {
+            "desactivado"
+        },
+        cfg.not_found_confirmations
+    );
     debug_assert!(
         codes
             .iter()
@@ -67,13 +76,39 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         "codegen produjo carnets no parseables"
     );
 
+    let careers_pool = fallback_pool(&cfg);
+
+    if dry_run {
+        let rps = cfg.requests_per_second.max(0.1);
+        let new_count = codes.len() - legacy_count;
+        let fallback_extra = if cfg.fallback_enabled {
+            new_count * careers_pool.len().saturating_sub(1)
+        } else {
+            0
+        };
+        let total_requests = codes.len() + fallback_extra;
+        println!(
+            "🧪 dry-run: {} requests base + hasta {} de fallback = {} (peor caso, ~{:.0} min a {:.1} req/s).",
+            codes.len(),
+            fallback_extra,
+            total_requests,
+            total_requests as f64 / rps / 60.0,
+            cfg.requests_per_second
+        );
+        return Ok(());
+    }
+
     let (existing_rows, found_ids) = load_existing(&cfg.output_path);
     let found_ids = Arc::new(RwLock::new(found_ids));
-    println!("♻️  {} registros previos reutilizados", existing_rows.len());
+    println!(
+        "♻️  {} registros previos reutilizados (append a {})",
+        existing_rows.len(),
+        cfg.output_path
+    );
+    drop(existing_rows);
 
-    let careers_pool = fallback_pool(&cfg);
     let (tx, rx) = mpsc::channel::<StudentRow>(2048);
-    let writer = tokio::spawn(writer_task(rx, cfg.output_path.clone(), existing_rows));
+    let writer = tokio::spawn(writer_task(rx, cfg.output_path.clone()));
 
     let stats = Arc::new(Stats::default());
     let start = Instant::now();
@@ -89,6 +124,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let concurrency = cfg.concurrency.max(1);
     let max_retries = cfg.max_retries;
     let confirmations = cfg.not_found_confirmations.max(1);
+    let fallback_enabled = cfg.fallback_enabled;
     let limiter_ref = &limiter;
     let url_ref = &url;
     let tx_ref = &tx;
@@ -122,17 +158,21 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                         emit(&tx, &key, student, found_ref, stats_ref).await;
                     }
                     FetchOutcome::NotFound => {
-                        match try_alternate_careers(
-                            &client,
-                            limiter_ref,
-                            url_ref,
-                            &carnet,
-                            careers_ref,
-                            max_retries,
-                            confirmations,
-                        )
-                        .await
-                        {
+                        let fallback = if fallback_enabled {
+                            try_alternate_careers(
+                                &client,
+                                limiter_ref,
+                                url_ref,
+                                &carnet,
+                                careers_ref,
+                                max_retries,
+                                confirmations,
+                            )
+                            .await
+                        } else {
+                            None
+                        };
+                        match fallback {
                             Some((alt, student)) => {
                                 let alt_key = alt.to_string();
                                 emit(&tx, &alt_key, student, found_ref, stats_ref).await;
@@ -203,25 +243,31 @@ async fn emit(
 async fn writer_task(
     mut rx: mpsc::Receiver<StudentRow>,
     path: String,
-    existing: Vec<StudentRow>,
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
+    let needs_header = std::fs::metadata(&path)
+        .map(|m| m.len() == 0)
+        .unwrap_or(true);
+    let file = std::fs::OpenOptions::new()
+        .create(true)
+        .append(true)
+        .open(&path)?;
     let mut wtr = csv::WriterBuilder::new()
         .has_headers(false)
-        .from_path(&path)?;
-    wtr.write_record([
-        "code",
-        "full_name",
-        "email",
-        "carnet",
-        "status",
-        "entry_date",
-        "shift",
-        "career",
-    ])?;
-    for row in &existing {
-        wtr.serialize(row)?;
+        .from_writer(file);
+
+    if needs_header {
+        wtr.write_record([
+            "code",
+            "full_name",
+            "email",
+            "carnet",
+            "status",
+            "entry_date",
+            "shift",
+            "career",
+        ])?;
+        wtr.flush()?;
     }
-    wtr.flush()?;
 
     let mut pending = 0u32;
     while let Some(row) = rx.recv().await {
@@ -300,11 +346,12 @@ fn fallback_pool(cfg: &AppConfig) -> Vec<u8> {
     set.into_iter().collect()
 }
 
-fn parse_args() -> (String, Option<usize>, Option<u8>) {
+fn parse_args() -> (String, Option<usize>, Option<u8>, bool) {
     let args: Vec<String> = std::env::args().skip(1).collect();
     let mut config = "config.json".to_string();
     let mut limit = None;
     let mut year = None;
+    let mut dry_run = false;
     let mut i = 0;
     while i < args.len() {
         match args[i].as_str() {
@@ -326,11 +373,14 @@ fn parse_args() -> (String, Option<usize>, Option<u8>) {
                     i += 1;
                 }
             }
+            "--dry-run" => {
+                dry_run = true;
+            }
             _ => {}
         }
         i += 1;
     }
-    (config, limit, year)
+    (config, limit, year, dry_run)
 }
 
 #[cfg(test)]
@@ -347,6 +397,7 @@ mod tests {
             timeout_secs: 1,
             max_retries: 0,
             not_found_confirmations: 1,
+            fallback_enabled: false,
             new_years: vec![
                 crate::config::NewYearConfig {
                     year: 22,

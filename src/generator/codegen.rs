@@ -132,6 +132,7 @@ mod tests {
             timeout_secs: 1,
             max_retries: 0,
             not_found_confirmations: 1,
+            fallback_enabled: false,
             new_years: vec![new_year(26, 2, vec![3]), new_year(26, 2, vec![3])],
             legacy_years: vec![LegacyYearConfig {
                 year: 18,

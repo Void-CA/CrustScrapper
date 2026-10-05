@@ -1,26 +1,28 @@
 {
-  "output_path": "students_1000.csv",
-  "concurrency": 12,
-  "requests_per_second": 8.0,
-  "timeout_secs": 8,
-  "max_retries": 4,
-  "not_found_confirmations": 2,
+  "output_path": "students.csv",
+  "concurrency": 8,
+  "requests_per_second": 5.0,
+  "timeout_secs": 10,
+  "max_retries": 5,
+  "not_found_confirmations": 1,
+  "fallback_enabled": false,
   "new_years": [
-    { "year": 22, "start_student": 1, "max_students": 1000, "existing_careers": [1, 2, 3, 4, 5, 7, 8] },
-    { "year": 23, "start_student": 1, "max_students": 1000, "existing_careers": [1, 2, 3, 4, 5, 7, 8] },
-    { "year": 24, "start_student": 1, "max_students": 1000, "existing_careers": [1, 2, 3, 4, 7, 8] },
-    { "year": 25, "start_student": 1, "max_students": 1000, "existing_careers": [1, 2, 3, 4, 7, 8, 10] },
-    { "year": 26, "start_student": 1, "max_students": 1000, "existing_careers": [1, 2, 3, 4, 7, 8, 10] }
+    { "year": 18, "start_student": 1, "max_students": 500, "existing_careers": [1, 2, 3, 4, 5, 7, 8, 10] },
+    { "year": 19, "start_student": 1, "max_students": 500, "existing_careers": [1, 2, 3, 4, 5, 7, 8, 10] },
+    { "year": 20, "start_student": 1, "max_students": 500, "existing_careers": [1, 2, 3, 4, 5, 7, 8, 10] },
+    { "year": 21, "start_student": 1, "max_students": 500, "existing_careers": [1, 2, 3, 4, 5, 7, 8, 10] },
+    { "year": 22, "start_student": 1, "max_students": 450, "existing_careers": [1, 2, 3, 4, 5, 7, 8] },
+    { "year": 23, "start_student": 1, "max_students": 500, "existing_careers": [1, 2, 3, 4, 5, 7, 8] },
+    { "year": 24, "start_student": 1, "max_students": 500, "existing_careers": [1, 2, 3, 4, 7, 8] },
+    { "year": 25, "start_student": 1, "max_students": 500, "existing_careers": [1, 2, 3, 4, 7, 8, 10] },
+    { "year": 26, "start_student": 1, "max_students": 500, "existing_careers": [1, 2, 3, 4, 7, 8, 10] }
   ],
   "legacy_years": [
-    { "year": 13, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
-    { "year": 14, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
-    { "year": 15, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
-    { "year": 16, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
-    { "year": 17, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
-    { "year": 18, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
-    { "year": 19, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
-    { "year": 20, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
-    { "year": 21, "start_student": 1, "max_students": 999, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] }
+    { "year": 13, "start_student": 1, "max_students": 300, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
+    { "year": 14, "start_student": 1, "max_students": 300, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
+    { "year": 15, "start_student": 1, "max_students": 300, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
+    { "year": 16, "start_student": 1, "max_students": 300, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
+    { "year": 17, "start_student": 1, "max_students": 300, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] },
+    { "year": 18, "start_student": 1, "max_students": 300, "acronyms": ["IME", "IMS", "IGI", "ICE", "IEEE"] }
   ]
 }

@@ -36,6 +36,8 @@ pub struct AppConfig {
     pub max_retries: u32,
     #[serde(default = "default_confirmations")]
     pub not_found_confirmations: u32,
+    #[serde(default = "default_true")]
+    pub fallback_enabled: bool,
     #[serde(default)]
     pub new_years: Vec<NewYearConfig>,
     #[serde(default)]
@@ -72,6 +74,10 @@ fn default_retries() -> u32 {
 
 fn default_confirmations() -> u32 {
     2
+}
+
+fn default_true() -> bool {
+    true
 }
 
 impl AppConfig {

@@ -47,13 +47,13 @@ pub const CAREERS: &[Career] = &[
         number: 7,
         code: "A07",
         name: "Licenciatura Comercial con énfasis en Mercadeo",
-        legacy_acronyms: &[],
+        legacy_acronyms: &["LCM"],
     },
     Career {
         number: 8,
         code: "A08",
         name: "Licenciatura en Administración con énfasis en Finanzas",
-        legacy_acronyms: &[],
+        legacy_acronyms: &["LAF"],
     },
     Career {
         number: 9,
@@ -65,7 +65,7 @@ pub const CAREERS: &[Career] = &[
         number: 10,
         code: "A10",
         name: "Ingeniería Electromédica",
-        legacy_acronyms: &[],
+        legacy_acronyms: &["IEM"],
     },
 ];
 
@@ -118,6 +118,9 @@ mod tests {
         );
         assert_eq!(by_legacy_acronym("ime").unwrap().number, 1);
         assert_eq!(by_legacy_acronym("IEEE").unwrap().number, 5);
+        assert_eq!(by_legacy_acronym("LAF").unwrap().number, 8);
+        assert_eq!(by_legacy_acronym("IEM").unwrap().number, 10);
+        assert_eq!(by_legacy_acronym("LCM").unwrap().number, 7);
     }
 
     #[test]

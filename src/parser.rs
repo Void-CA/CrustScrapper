@@ -1,5 +1,5 @@
-use scraper::{Html, Selector};
 use crate::student::Student;
+use scraper::{Html, Selector};
 
 /// Dado un <div> con <strong>Campo:</strong>, devuelve el valor del siguiente div con clase col-md-12
 fn extract_value_strong(div: scraper::ElementRef, document: &Html) -> Option<String> {
@@ -9,10 +9,10 @@ fn extract_value_strong(div: scraper::ElementRef, document: &Html) -> Option<Str
             // El siguiente div después del <strong> es el valor
             return Some(row.text().collect::<String>().trim().to_string());
         }
-        if let Some(strong) = row.select(&Selector::parse("strong").unwrap()).next() {
-            if strong.inner_html().trim_end_matches(':') == div.inner_html().trim_end_matches(':') {
-                found = true;
-            }
+        if let Some(strong) = row.select(&Selector::parse("strong").unwrap()).next()
+            && strong.inner_html().trim_end_matches(':') == div.inner_html().trim_end_matches(':')
+        {
+            found = true;
         }
     }
     None
@@ -23,7 +23,8 @@ pub fn parse_student_data(html: &str) -> Student {
 
     // Para nombres y apellidos
     let mut full_name = None;
-    let nombre_divs: Vec<_> = document.select(&Selector::parse("strong").unwrap())
+    let nombre_divs: Vec<_> = document
+        .select(&Selector::parse("strong").unwrap())
         .filter(|s| {
             let binding = s.inner_html();
             let text = binding.trim_end_matches(':');
@@ -31,22 +32,28 @@ pub fn parse_student_data(html: &str) -> Student {
         })
         .collect();
 
-    if !nombre_divs.is_empty() {
-        let nombres = extract_value_strong(nombre_divs[0], &document).unwrap_or_default();
-        let apellidos = extract_value_strong(nombre_divs[1], &document).unwrap_or_default();
-        full_name = Some(format!("{} {}", nombres, apellidos));
+    if let Some(nombres_div) = nombre_divs.first() {
+        let nombres = extract_value_strong(*nombres_div, &document).unwrap_or_default();
+        let apellidos = nombre_divs
+            .get(1)
+            .and_then(|d| extract_value_strong(*d, &document))
+            .unwrap_or_default();
+        full_name = Some(format!("{} {}", nombres, apellidos).trim().to_string());
     }
 
     // Otros campos
-    let carnet = document.select(&Selector::parse("strong").unwrap())
+    let carnet = document
+        .select(&Selector::parse("strong").unwrap())
         .find(|s| s.inner_html().trim_end_matches(':') == "Carnet")
         .and_then(|d| extract_value_strong(d, &document));
 
-    let turno = document.select(&Selector::parse("strong").unwrap())
+    let turno = document
+        .select(&Selector::parse("strong").unwrap())
         .find(|s| s.inner_html().trim_end_matches(':') == "Turno")
         .and_then(|d| extract_value_strong(d, &document));
 
-    let estado = document.select(&Selector::parse("strong").unwrap())
+    let estado = document
+        .select(&Selector::parse("strong").unwrap())
         .find(|s| s.inner_html().trim_end_matches(':') == "Estado")
         .and_then(|d| extract_value_strong(d, &document));
 
@@ -59,21 +66,22 @@ pub fn parse_student_data(html: &str) -> Student {
         .map(|h| h.trim_start_matches("mailto:").to_string());
 
     // Programa/Carrera y Career
-    let carrera = document.select(&Selector::parse("strong").unwrap())
+    let carrera = document
+        .select(&Selector::parse("strong").unwrap())
         .find(|s| s.inner_html().trim_end_matches(':') == "Programa/Carrera")
         .and_then(|d| extract_value_strong(d, &document));
 
-    let entry_date = document.select(&Selector::parse("strong").unwrap())
+    let entry_date = document
+        .select(&Selector::parse("strong").unwrap())
         .find(|s| s.inner_html().trim_end_matches(':') == "Fecha de ingreso")
         .and_then(|d| extract_value_strong(d, &document));
-
 
     Student {
         full_name,
         email,
         carnet,
         status: estado,
-        entry_date: entry_date,
+        entry_date,
         shift: turno,
         career: carrera,
     }
@@ -103,12 +111,21 @@ mod tests {
         <a href='mailto:ari.castillo@est.ulsa.edu.ni'>ari.castillo@est.ulsa.edu.ni</a>
         "#;
         let student = parse_student_data(html);
-        assert_eq!(student.full_name, Some("ARI ALEJANDRO CASTILLO AMADOR".to_string()));
-        assert_eq!(student.email, Some("ari.castillo@est.ulsa.edu.ni".to_string()));
+        assert_eq!(
+            student.full_name,
+            Some("ARI ALEJANDRO CASTILLO AMADOR".to_string())
+        );
+        assert_eq!(
+            student.email,
+            Some("ari.castillo@est.ulsa.edu.ni".to_string())
+        );
         assert_eq!(student.carnet, Some("22-A0301-0041-A04".to_string()));
         assert_eq!(student.shift, Some("Diurno".to_string()));
         assert_eq!(student.status, Some("ACTIVO".to_string()));
-        assert_eq!(student.career, Some("Ingeniería en Cibernética Electrónica".to_string()));
+        assert_eq!(
+            student.career,
+            Some("Ingeniería en Cibernética Electrónica".to_string())
+        );
         assert_eq!(student.entry_date, Some("16/12/2022".to_string()));
     }
 
@@ -123,7 +140,10 @@ mod tests {
         "#;
         let student = parse_student_data(html);
         assert_eq!(student.full_name, Some("ARI CASTILLO".to_string()));
-        assert_eq!(student.email, Some("ari.castillo@est.ulsa.edu.ni".to_string()));
+        assert_eq!(
+            student.email,
+            Some("ari.castillo@est.ulsa.edu.ni".to_string())
+        );
         assert!(student.carnet.is_none());
         assert!(student.shift.is_none());
         assert!(student.status.is_none());

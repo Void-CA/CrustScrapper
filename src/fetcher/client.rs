@@ -1,113 +1,196 @@
-use reqwest::Client;
-use std::error::Error;
-use tokio::time::sleep;
 use std::time::Duration;
+
+use reqwest::Client;
+use reqwest::header::RETRY_AFTER;
+use tokio::time::sleep;
+
+use crate::parser;
+use crate::ratelimit::RateLimiter;
 use crate::student::Student;
-use crate::parser; // tu parser
 
-pub async fn fetch_student(client: &Client, code: &str) -> Result<Option<Student>, Box<dyn Error>> {
-    let url = "https://sive.ulsa.edu.ni/documentos/infoEstudiante";
-    let mut attempts = 0;
+#[derive(Debug)]
+pub enum FetchOutcome {
+    Found(Student),
+    NotFound,
+    Transient(String),
+}
 
-    loop {
-        attempts += 1;
+#[derive(Debug)]
+pub enum BodyKind {
+    Data(Student),
+    NotFound,
+    Unknown,
+}
 
-        let res = client.get(url)
+pub fn classify_body(body: &str) -> BodyKind {
+    if body.contains("no se ha encontrado ningún estudiante") {
+        return BodyKind::NotFound;
+    }
+    let student = parser::parse_student_data(body);
+    if student.has_data() {
+        BodyKind::Data(student)
+    } else {
+        BodyKind::Unknown
+    }
+}
+
+pub async fn fetch_student(
+    client: &Client,
+    limiter: &RateLimiter,
+    url: &str,
+    code: &str,
+    max_retries: u32,
+    not_found_confirmations: u32,
+) -> FetchOutcome {
+    let mut not_found_seen = 0u32;
+    let confirmations = not_found_confirmations.max(1);
+
+    for attempt in 0..=max_retries {
+        limiter.acquire().await;
+
+        let response = client
+            .get(url)
             .query(&[("codigo", code)])
-            .header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0 (Edition ms_store_gx)")
+            .header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36")
             .header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
-            .header("Accept-Language", "en-US,en;q=0.9,es;q=0.8")
-            .header("Connection", "keep-alive")
-            .header("Referer", "https://sive.ulsa.edu.ni/")
-            .header("Sec-Fetch-Dest", "empty")
-            .header("Sec-Fetch-Mode", "cors")
-            .header("Sec-Fetch-Site", "same-origin")
+            .header("Accept-Language", "es-NI,es;q=0.9,en;q=0.8")
             .header("X-Requested-With", "XMLHttpRequest")
-            .header("Content-Type", "application/x-www-form-urlencoded")
-            .header("Cookie", "_ga=GA1.1.940136856.1755286927; _ga_NGE05TRVV7=GS2.1.s1755893617$o10$g1$t1755893629$j48$l0$h0; _ga_2JNG0WPCJL=GS2.1.s1756071834$o8$g1$t1756071946$j60$l0$h0; XSRF-TOKEN=eyJpdiI6IkRPR0Q3aFlyTmFDVU1BS3NUcFk4Umc9PSIsInZhbHVlIjoibW5FY3hiSzlhM25zd1BBYWQvbTNjYWpSL0x4MnJEVGd6TFJqeHdJallsclN5bFh0SEpXSVhDMm9ZOStuWGp3UDQ2cEc3SGplMEdLTDJ3NVBwMnAzbUswNml6Z0hHUTZmbnpFTlp2ZW83OFF0WVN6NFhtQXdJRUtuMUc4MUpOcDQiLCJtYWMiOiI5M2IwYmI4NjM5ZWVhNDU3ZWM0NjU5MzVmNDZmNTM3NzViN2U5NDU3YTVjZTU1ZDcyMjgxZjU5MDk0NDc4NWUxIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IkdFd3RwS3JKSlZUbmRBOHYvdHJ4b0E9PSIsInZhbHVlIjoiS0JDN2wxUjVMYlFwbTJydEdoTXdMenQwa3AxcWNXRlR6alJETDRGWlZDN1k5K3ovRnM1Q1dkZlE3WmV5SVlPSzZRdVZJUlZ5UmFkcHF2SWxmQUlZaGxwUGhZQTdkc090Wk9CKzRlblBrQ3hMbW9xMFh4Ujk3d0RtMmJYeGF1bHciLCJtYWMiOiJkNzhiNGQwYmZlMjllOWQyZDBmYThhYmVkNjA5MWFkOGI5NTEwMzliNTA2N2Y1MTIwZmU1Zjk0YWU5ZGZmZWMwIiwidGFnIjoiIn0%3D")
             .send()
             .await;
 
-        match res {
+        match response {
             Ok(resp) => {
-                let body = resp.text().await?;
-                if body.trim().is_empty() {
-                    return Ok(None);
+                let status = resp.status();
+
+                if status.as_u16() == 429 || status.is_server_error() {
+                    limiter.on_throttle().await;
+                    let retry_after = parse_retry_after(&resp);
+                    backoff(attempt, retry_after).await;
+                    continue;
                 }
 
-                // parse_student_data devuelve Student
-                let student = parser::parse_student_data(&body);
+                if status.as_u16() == 401 || status.as_u16() == 403 {
+                    limiter.on_success().await;
+                    backoff(attempt, None).await;
+                    if attempt == max_retries {
+                        return FetchOutcome::Transient(format!("autenticación HTTP {status}"));
+                    }
+                    continue;
+                }
 
-                // verifica si al menos un campo tiene datos
-                let any_data = student.full_name.is_some()
-                    || student.email.is_some()
-                    || student.carnet.is_some()
-                    || student.status.is_some()
-                    || student.entry_date.is_some()
-                    || student.shift.is_some()
-                    || student.career.is_some();
+                if status.is_client_error() {
+                    limiter.on_success().await;
+                    return FetchOutcome::NotFound;
+                }
 
-                if any_data {
-                    return Ok(Some(student));
-                } else {
-                    return Ok(None);
+                let body = match resp.text().await {
+                    Ok(body) => body,
+                    Err(err) => {
+                        backoff(attempt, None).await;
+                        if attempt == max_retries {
+                            return FetchOutcome::Transient(format!(
+                                "lectura de cuerpo falló: {err}"
+                            ));
+                        }
+                        continue;
+                    }
+                };
+
+                match classify_body(&body) {
+                    BodyKind::Data(student) => {
+                        limiter.on_success().await;
+                        return FetchOutcome::Found(student);
+                    }
+                    BodyKind::NotFound => {
+                        not_found_seen += 1;
+                        if not_found_seen >= confirmations {
+                            limiter.on_success().await;
+                            return FetchOutcome::NotFound;
+                        }
+                        sleep(Duration::from_millis(250)).await;
+                    }
+                    BodyKind::Unknown => {
+                        backoff(attempt, None).await;
+                    }
                 }
             }
-            Err(e) => {
-                eprintln!("Error for {}: {} (attempt {})", code, e, attempts);
-                if attempts >= 3 {
-                    return Ok(None);
+            Err(err) => {
+                if err.is_timeout() || err.is_connect() {
+                    limiter.on_throttle().await;
                 }
-                sleep(Duration::from_millis(500)).await;
+                backoff(attempt, None).await;
+                if attempt == max_retries {
+                    return FetchOutcome::Transient(format!("error de red: {err}"));
+                }
             }
         }
     }
+
+    FetchOutcome::Transient("reintentos agotados".to_string())
+}
+
+fn parse_retry_after(resp: &reqwest::Response) -> Option<Duration> {
+    let value = resp.headers().get(RETRY_AFTER)?.to_str().ok()?;
+    value.trim().parse::<u64>().ok().map(Duration::from_secs)
+}
+
+async fn backoff(attempt: u32, retry_after: Option<Duration>) {
+    if let Some(wait) = retry_after {
+        sleep(wait.min(Duration::from_secs(30))).await;
+        return;
+    }
+    let base_ms = 300u64.saturating_mul(1u64 << attempt.min(5));
+    let capped = base_ms.min(10_000);
+    sleep(Duration::from_millis(capped + jitter_ms())).await;
+}
+
+fn jitter_ms() -> u64 {
+    use std::sync::atomic::{AtomicU64, Ordering};
+    static SEED: AtomicU64 = AtomicU64::new(0);
+    let mut x = SEED.load(Ordering::Relaxed);
+    if x == 0 {
+        x = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .map(|d| d.as_nanos() as u64)
+            .unwrap_or(0x9E37_79B9_7F4A_7C15)
+            | 1;
+    }
+    x ^= x << 13;
+    x ^= x >> 7;
+    x ^= x << 17;
+    SEED.store(x, Ordering::Relaxed);
+    x % 250
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
-    use reqwest::Client;
-    use tokio;
 
-    #[tokio::test]
-    async fn test_fetch_student_valid_code() {
-        let client = Client::builder()
-            .user_agent("Mozilla/5.0 (Rust scraper)")
-            .build()
-            .unwrap();
-        let code = "22-A0301-0041-A04"; // Código de prueba que debería funcionar
-        let result = fetch_student(&client, code).await;
-        assert!(result.is_ok(), "La petición debe ser exitosa");
-        let student = result.unwrap();
-        if student.is_none() {
-            // Depuración: hacer la petición manual y mostrar el HTML recibido
-            let url = "https://sive.ulsa.edu.ni/documentos/infoEstudiante";
-            let res = client.get(url)
-                .query(&[("codigo", code)])
-                .header("User-Agent", "Mozilla/5.0 (Rust scraper)")
-                .send()
-                .await
-                .unwrap();
-            let body = res.text().await.unwrap();
-            println!("\n--- HTML recibido para {} ---\n{}\n--- FIN HTML ---\n", code, body);
-        }
-        assert!(student.is_some(), "Debe encontrar datos para el código de prueba");
-        let student = student.unwrap();
-        println!("Student data: {:?}", student);
-        assert!(student.full_name.is_some(), "El nombre completo debe estar presente");
+    #[test]
+    fn classifies_not_found_page() {
+        let body = r#"<div><b>Estimado usuario, no se ha encontrado ningún estudiante con el número de carnet introducido.</b></div>"#;
+        assert!(matches!(classify_body(body), BodyKind::NotFound));
     }
 
-    #[tokio::test]
-    async fn test_fetch_student_invalid_code() {
-        let client = Client::builder()
-            .user_agent("Mozilla/5.0 (Rust scraper)")
-            .build()
-            .unwrap();
-        let code = "00-XXXX-0000"; // Código inválido
-        let result = fetch_student(&client, code).await;
-        assert!(result.is_ok(), "La petición debe ser exitosa aunque el código no exista");
-        let student = result.unwrap();
-        assert!(student.is_none(), "No debe encontrar datos para un código inválido");
+    #[test]
+    fn classifies_student_page() {
+        let body = r#"
+        <div class='row mt-2'><strong>Nombres:</strong></div>
+        <div class='row mt-2'>ARI ALEJANDRO</div>
+        <div class='row mt-2'><strong>Carnet:</strong></div>
+        <div class='row mt-2'>18-IME-0053</div>
+        "#;
+        match classify_body(body) {
+            BodyKind::Data(student) => {
+                assert_eq!(student.full_name.as_deref(), Some("ARI ALEJANDRO"))
+            }
+            other => panic!("esperaba datos, obtuve {other:?}"),
+        }
+    }
+
+    #[test]
+    fn classifies_private_modal_as_unknown() {
+        let body = r#"<div class="modal-body"><p>Este contenido es privado.</p></div>"#;
+        assert!(matches!(classify_body(body), BodyKind::Unknown));
     }
 }
